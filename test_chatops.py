@@ -33,6 +33,7 @@ if __name__ == "__main__":
     )
     the_message = ""
     # fetch random dictionary containing word as key and definition as value
+    # print(f"Word list: {word_list}")
     random_word = return_word()
     random_word_name = random_word["name"]
     word = "\n" + random_word["name"] + "\n"
