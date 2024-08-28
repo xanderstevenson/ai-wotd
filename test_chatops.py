@@ -77,12 +77,20 @@ if __name__ == "__main__":
                 "version": "1.2",
                 "body": [
                     {
+                        "type": "Image",
+                        "url": "https://raw.githubusercontent.com/xanderstevenson/word-of-the-day/main/media/AI-WOTD.png",  # Replace with your image URL
+                        "horizontalAlignment": "center",
+                        "width": "125px",
+                        "height": "auto",
+                        # "size": "Large",
+                    },
+                    {
                         "type": "TextBlock",
-                        "text": "Word of the Day",
+                        "text": "AI Word of the Day",
                         "size": "ExtraLarge",
                         "horizontalAlignment": "center",
                         "fontType": "Default",
-                        "isSubtle": True,
+                        # "isSubtle": True,
                         "color": "Accent",
                         "weight": "Bolder",
                         "wrap": True,
