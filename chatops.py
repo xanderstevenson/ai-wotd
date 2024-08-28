@@ -22,44 +22,6 @@ def send_it(token, room_id, message):
     )
 
 
-# post to LinkedIn
-# will change to https://api.linkedin.com/rest/posts
-def post(profile_id, li_access_token, random_word_name, definition, word_url):
-
-    url = "https://api.linkedin.com/v2/ugcPosts"
-
-    headers = {
-        "Content-Type": "application/json",
-        "X-Restli-Protocol-Version": "2.0.0",
-        "Authorization": "Bearer " + li_access_token,
-    }
-    # make new variable for linkedin hashtag, lowercase it and remove spaces
-    random_word_linkedin = random_word_name.lower().replace(" ", "")
-    # remove abbreviations for linkedin hashtag
-    # remove everything between ()
-    random_word_linkedin = re.sub("\(.*?\)", "()", random_word_linkedin)
-    # remove (), -.  and /
-    random_word_linkedin = random_word_linkedin.replace("(", "").replace(")", "")
-    random_word_linkedin = random_word_linkedin.replace("-", "").replace("/", "")
-    random_word_linkedin = random_word_linkedin.replace(".", "")
-    post_data = {
-        "author": "urn:li:person:" + profile_id,
-        "lifecycleState": "PUBLISHED",
-        "specificContent": {
-            "com.linkedin.ugc.ShareContent": {
-                "shareCommentary": {
-                    "text": f"----------------------\nTech Word of the Day\n----------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nThis automated post was created by Alex Stevenson using #Python and a LinkedIn #API.\n\n#Tech #WordOfTheDay #{random_word_linkedin} #Automation #DevNet"
-                },
-                "shareMediaCategory": "NONE",
-            }
-        },
-        "visibility": {"com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"},
-    }
-
-    response = requests.post(url, headers=headers, json=post_data)
-    return response
-
-
 if __name__ == "__main__":
 
     # Command line arguments parsing
@@ -85,14 +47,22 @@ if __name__ == "__main__":
                 "version": "1.2",
                 "body": [
                     {
+                        "type": "Image",
+                        "url": "https://raw.githubusercontent.com/xanderstevenson/word-of-the-day/main/media/AI-WOTD.png",  # Replace with your image URL
+                        "horizontalAlignment": "center",
+                        "width": "100px",
+                        "height": "auto",
+                        # "size": "Large",
+                    },
+                    {
                         "type": "TextBlock",
-                        "text": "Word of the Day",
+                        "text": "AI Word of the Day",
                         "size": "ExtraLarge",
                         "horizontalAlignment": "center",
                         "fontType": "Default",
-                        "isSubtle": True,
-                        "color": "Accent",
-                        "weight": "Bolder",
+                        # "isSubtle": True,
+                        "color": "Warning",
+                        "weight": "Bold",
                         "wrap": True,
                         "style": "Emphasis",
                     },
@@ -132,18 +102,16 @@ if __name__ == "__main__":
                             }
                         ],
                     },
-                    # # code block - use in a sentence
-                    #     {
-                    #     "type": "TextBlock",
-                    #     "text": f"Challenge: See how many times you can you incorporate '{random_word_name}' into your converstions today.",
-                    #     "size": "Small",
-                    #     "horizontalAlignment": "left",
-                    #     "fontType": "Default",
-                    #     "isSubtle": True,
-                    #     "color": "Warning",
-                    #     "weight": "Lighter",
-                    #     "wrap": True
-                    #     },
+                    {
+                        "type": "TextBlock",
+                        "text": "Reply and let's discuss this AI concept!",
+                        "size": "Small",
+                        "horizontalAlignment": "center",
+                        "fontType": "Default",
+                        "isSubtle": True,
+                        "wrap": True,
+                        "color": "Warning",
+                    },
                 ],
             },
         }
@@ -164,10 +132,3 @@ if __name__ == "__main__":
             )
         elif res.status_code == 401:
             print("please check if the access token is correct...")
-
-    # post to linkedin
-    res2 = post(profile_id, li_access_token, random_word_name, definition, word_url)
-    if res2.status_code == 201:
-        print(f"{word} was successfully posted to LinkedIn")
-    else:
-        print("failed with statusCode: %d" % res2.status_code)
