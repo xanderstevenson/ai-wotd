@@ -1,10 +1,17 @@
-#!/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/bin/python3
+#!/Users/alexstev/Documents/CiscoDevNet/code/ai-wod/venv/bin/python3
 import json
 import requests
+from requests_oauthlib import OAuth1Session
 import os
 from test_terms import return_word
 from datetime import datetime
-from passwords import profile_id, li_access_token, TEAMS_ACCESS_TOKEN
+from passwords import (
+    profile_id,
+    li_access_token,
+    TEAMS_ACCESS_TOKEN,
+    x_api_key,
+    x_api_secret_key,
+)
 
 
 # Simple Bot Function for passing messages to a room
@@ -106,7 +113,7 @@ if __name__ == "__main__":
                     },
                     {
                         "type": "TextBlock",
-                        "text": "Reply and let's discuss this AI concept!",
+                        "text": "Reply below and let's discuss this AI concept!",
                         "size": "Small",
                         "horizontalAlignment": "center",
                         "fontType": "Default",

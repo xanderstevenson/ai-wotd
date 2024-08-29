@@ -1,3 +1,4 @@
+#!/Users/alexstev/Documents/CiscoDevNet/code/ai-wod/venv/bin/python3
 import re
 import json
 import requests
@@ -104,7 +105,7 @@ if __name__ == "__main__":
                     },
                     {
                         "type": "TextBlock",
-                        "text": "Reply and let's discuss this AI concept!",
+                        "text": "Reply below and let's discuss this AI concept!",
                         "size": "Small",
                         "horizontalAlignment": "center",
                         "fontType": "Default",
