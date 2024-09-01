@@ -150,7 +150,7 @@ if __name__ == "__main__":
                         "url": "https://raw.githubusercontent.com/xanderstevenson/word-of-the-day/main/media/AI-WOTD.png",  # Replace with your image URL
                         "horizontalAlignment": "center",
                         "width": "100px",
-                        "height": "auto",
+                        "height": "100px",
                     },
                     {
                         "type": "TextBlock",

@@ -49,7 +49,7 @@ def return_word():
             "id": 4,
         },
         {
-            "name": "Natural Language Processing",
+            "name": "Natural Language Processing (NLP)",
             "definition": "A field of artificial intelligence that focuses on the interaction between computers and humans through natural language.",
             "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
             "id": 5,
@@ -121,7 +121,7 @@ def return_word():
             "id": 16,
         },
         {
-            "name": "Principal Component Analysis",
+            "name": "Principal Component Analysis (PCA)",
             "definition": "A dimensionality reduction technique that transforms data into a set of orthogonal (uncorrelated) components, capturing the most variance in the data.",
             "url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
             "id": 17,
@@ -163,19 +163,19 @@ def return_word():
             "id": 23,
         },
         {
-            "name": "Convolutional Neural Network",
+            "name": "Convolutional Neural Network (CNN)",
             "definition": "A deep learning algorithm specifically designed for processing structured grid data like images, using convolutional layers to automatically and adaptively learn spatial hierarchies of features.",
             "url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
             "id": 24,
         },
         {
-            "name": "Recurrent Neural Network",
+            "name": "Recurrent Neural Network (RNN)",
             "definition": "A type of neural network where connections between nodes form directed cycles, allowing the network to maintain a memory of previous inputs, useful for sequence prediction tasks.",
             "url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
             "id": 25,
         },
         {
-            "name": "Long Short-Term Memory",
+            "name": "Long Short-Term Memory (LSTM)",
             "definition": "A special kind of recurrent neural network architecture designed to better retain long-term dependencies by using gates to control the flow of information.",
             "url": "https://en.wikipedia.org/wiki/Long_short-term_memory",
             "id": 26,
@@ -217,7 +217,7 @@ def return_word():
             "id": 32,
         },
         {
-            "name": "Generative Adversarial Network",
+            "name": "Generative Adversarial Network (GAN)",
             "definition": "A class of machine learning frameworks where two neural networks, a generator and a discriminator, compete against each other to generate realistic data.",
             "url": "https://en.wikipedia.org/wiki/Generative_adversarial_network",
             "id": 33,
@@ -258,42 +258,42 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Stochastic_gradient_descent",
             "id": 39,
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 7
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 8
-        # },
+        {
+            "name": "Feature engineering",
+            "definition": "Feature engineering is a preprocessing step in supervised machine learning and statistical modeling which transforms raw data into a more effective set of inputs. Each input comprises several attributes, known as features. By providing models with relevant information, feature engineering significantly enhances their predictive accuracy and decision-making capability.",
+            "url": "https://en.wikipedia.org/wiki/Feature_engineering",
+            "id": 40,
+        },
+        {
+            "name": "Hyperparameter optimization",
+            "definition": "In machine learning, hyperparameter optimization or tuning is the problem of choosing a set of optimal hyperparameters for a learning algorithm. A hyperparameter is a parameter whose value is used to control the learning process.\n\nHyperparameter optimization determines the set of hyperparameters that yields an optimal model which minimizes a predefined loss function on a given data set. The objective function takes a set of hyperparameters and returns the associated loss. Cross-validation is often used to estimate this generalization performance, and therefore choose the set of values for hyperparameters that maximize it.",
+            "url": "https://en.wikipedia.org/wiki/Hyperparameter_optimization",
+            "id": 41,
+        },
+        {
+            "name": "Feature extraction vs. Feature selection",
+            "definition": "Feature extraction transforms the original features in a dataset into a new set of features, often reducing dimensionality and capturing the most important information. This process can involve techniques like Principal Component Analysis (PCA), which combines features into fewer, more informative ones.\n\nFeature selection involves choosing a subset of the most relevant features from the original dataset without altering them. The goal is to reduce the feature space by eliminating irrelevant or redundant features, which can enhance model performance and reduce overfitting.\n\nIn essence, feature extraction creates new features by transforming data, while feature selection narrows down the features to the most important ones, both aiming to improve the efficiency and accuracy of machine learning models.",
+            "url": "https://www.geeksforgeeks.org/difference-between-feature-selection-and-feature-extraction/",
+            "id": 42,
+        },
+        {
+            "name": "Transformer",
+            "definition": "A transformer is a deep learning architecture developed by researchers at Google and based on the multi-head attention mechanism, proposed in a 2017 paper ‘Attention Is All You Need’. Text is converted to numerical representations called tokens, and each token is converted into a vector via looking up from a word embedding table. At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism allowing the signal for key tokens to be amplified and less important tokens to be diminished.\n\nTransformers have the advantage of having no recurrent units, and therefore require less training time than earlier recurrent neural architectures (RNNs) such as long short-term memory (LSTM). Later variations have been widely adopted for training large language models (LLM) on large (language) datasets, such as the Wikipedia corpus and Common Crawl.\n\nTransformers were first developed as an improvement over previous architectures for machine translation, but have found many applications since then. They are used in large-scale natural language processing, computer vision (vision transformers), reinforcement learning, audio, multi-modal processing, robotics, and even playing chess. It has also led to the development of pre-trained systems, such as generative pre-trained transformers (GPTs) and BERT (Bidirectional Encoder Representations from Transformers).",
+            "url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)",
+            "id": 43,
+        },
+        {
+            "name": "Feedforward neural network (FNN)",
+            "definition": "A feedforward neural network (FNN) is one of the two broad types of artificial neural network, characterized by direction of the flow of information between its layers. Its flow is uni-directional, meaning that the information in the model flows in only one direction—forward—from the input nodes, through the hidden nodes (if any) and to the output nodes, without any cycles or loops, in contrast to recurrent neural networks, which have a bi-directional flow. Modern feedforward networks are trained using the backpropagation method and are colloquially referred to as the ‘vanilla’ neural networks.",
+            "url": "https://en.wikipedia.org/wiki/Feedforward_neural_network",
+            "id": 44,
+        },
+        {
+            "name": "Named-entity recognition (NER)",
+            "definition": "Named-entity recognition (NER) (also known as (named) entity identification, entity chunking, and entity extraction) is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.",
+            "url": "https://en.wikipedia.org/wiki/Named-entity_recognition",
+            "id": 45,
+        },
         # {
         #     "name": "",
         #     "definition": "",
