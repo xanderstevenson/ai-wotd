@@ -3,15 +3,22 @@ from requests_oauthlib import OAuth1Session
 import os
 from passwords import x_api_key, x_api_secret_key
 
+
+# Path to the JSON file
+import_file = "exported_tweet.json"
+
+# Load the tweet_text
+with open(import_file, "r") as f:
+    data = json.load(f)
+
+tweet_text = data["tweet_text"]
+
 # Replace with your API keys
 consumer_key = x_api_key
 consumer_secret = x_api_secret_key
 
 # Path to save tokens
 token_file = "tokens.json"
-
-# Define your tweet text here
-tweet_text = "Hello world, Part Tres!"
 
 
 def save_tokens(token_data):
@@ -75,11 +82,11 @@ def get_oauth_session():
     return oauth
 
 
-def post_tweet(text):
+def post_tweet():
     oauth = get_oauth_session()
 
     # Set the tweet payload
-    payload = {"text": text}
+    payload = {"text": tweet_text}
 
     # Post the tweet
     response = oauth.post(
@@ -100,4 +107,4 @@ def post_tweet(text):
 
 
 if __name__ == "__main__":
-    post_tweet(tweet_text)
+    post_tweet()

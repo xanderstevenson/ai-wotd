@@ -154,7 +154,7 @@ if __name__ == "__main__":
                     },
                     {
                         "type": "TextBlock",
-                        "text": "AI Word of the Day",
+                        "text": "AI Daily Dose",
                         "size": "ExtraLarge",
                         "horizontalAlignment": "center",
                         "fontType": "Default",
@@ -253,20 +253,22 @@ if __name__ == "__main__":
         f"Learn more: {word_url}\n\n"
         f"#AI #WordOfTheDay #Cisco #DevNet #{random_word_x}"
     )
+    # Path to the JSON file
+    export_file = "exported_tweet.json"
 
-    # Retry posting the tweet every 5 seconds for up to 1 minute
-    max_retries = 5  # 12 retries at 5-second intervals = 1 minute
-    retries = 0
-    while retries < max_retries:
-        try:
-            post_tweet(tweet_text)
-            print("Tweet successfully posted.")
-            break
-        except Exception as e:
-            print(f"An error occurred while posting to Twitter: {e}")
-            retries += 1
-            if retries < max_retries:
-                print(f"Retrying in 5 seconds... ({retries}/{max_retries})")
-                time.sleep(5)
-            else:
-                print("Failed to post the tweet after multiple attempts.")
+    # Dictionary to store the tweet_text
+    export_data = {
+        "tweet_text": tweet_text,
+    }
+
+    # Save the tweet_text to the JSON file
+    with open(export_file, "w") as f:
+        json.dump(export_data, f)
+
+    # Run the second script
+    # subprocess.run(
+    #     [
+    #         "/Users/alexstev/Documents/CiscoDevNet/code/ai-wotd/venv/bin/python3",
+    #         "post_to_twitter.py",
+    #     ]
+    # )
