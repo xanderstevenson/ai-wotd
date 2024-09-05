@@ -20,3 +20,9 @@ Exception: Request returned an error: 403 {"detail":"You are not permitted to pe
 
 Hyperparameter Tuning
  was successfully posted to Webex Teams on 2024-09-03 09:00:04.112318
+
+Random Forest
+ was successfully posted to Webex Teams on 2024-09-04 09:00:02.192739
+
+Supervised Learning
+ was successfully posted to Webex Teams on 2024-09-05 09:00:05.902735

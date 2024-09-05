@@ -144,13 +144,13 @@ if __name__ == "__main__":
                 "type": "AdaptiveCard",
                 "version": "1.2",
                 "body": [
-                    {
-                        "type": "Image",
-                        "url": "https://raw.githubusercontent.com/xanderstevenson/word-of-the-day/main/media/AI-WOTD.png",  # Replace with your image URL
-                        "horizontalAlignment": "center",
-                        "width": "100px",
-                        "height": "100px",
-                    },
+                    # {
+                    #     "type": "Image",
+                    #     "url": "https://raw.githubusercontent.com/xanderstevenson/word-of-the-day/main/media/AI-Webex-500.png",  # Replace with your image URL
+                    #     "horizontalAlignment": "center",
+                    #     "width": "100px",
+                    #     "height": "100px",
+                    # },
                     {
                         "type": "TextBlock",
                         "text": "AI Daily Dose",
