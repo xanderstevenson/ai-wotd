@@ -2,8 +2,6 @@ name: Test Daily Script
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # 9 AM EST during standard time (UTC-5)
-    - cron: '0 13 * * *'  # 9 AM EST during daylight saving time (UTC-4)
   workflow_dispatch:  # Enables manual triggering
 
 jobs:
