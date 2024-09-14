@@ -3,7 +3,6 @@ import requests
 import re
 import time
 import subprocess
-from requests_oauthlib import OAuth1Session
 import os
 from test_terms import return_word
 from datetime import datetime
