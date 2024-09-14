@@ -39,8 +39,8 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add db-test.json
-          git commit -m "Update db-test.json with new word"
+          git add db.json
+          git commit -m "Update db.json with new word"
           git push https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
         env:
           PAT: ${{ secrets.PAT }}
