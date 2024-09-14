@@ -1,7 +1,6 @@
 name: Test Daily Script
 
 on:
-  schedule:
   workflow_dispatch:  # Enables manual triggering
 
 jobs:
