@@ -1,0 +1,35 @@
+name: Run Daily Script
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # 9 AM EST during standard time (UTC-5)
+    - cron: '0 13 * * *'  # 9 AM EST during daylight saving time (UTC-4)
+  workflow_dispatch:  # Enables manual triggering
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository to access your scripts and db.json
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Run your script with environment variable
+      - name: Run the script
+        env:
+          TEAMS_ACCESS_TOKEN: ${{ secrets.TEAMS_ACCESS_TOKEN }}
+        run: |
+          python3 test_chatops.py
