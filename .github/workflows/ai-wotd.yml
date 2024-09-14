@@ -5,6 +5,7 @@ on:
     # Run the workflow daily at 9 AM EST
     - cron: '0 14 * * *'  # This will run at 9 AM EST during standard time (UTC-5)
     - cron: '0 13 * * *'  # This will run at 9 AM EST during daylight saving time (UTC-4)
+  workflow_dispatch:  # This enables manual triggering
 
 jobs:
   run-script:
@@ -15,9 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Run your script with the secret environment variable
+      # Run your script (adjust the script path as needed)
       - name: Run the script
-        env:
-          TEAMS_ACCESS_TOKEN: ${{ secrets.TEAMS_ACCESS_TOKEN }}
         run: |
           python3 test_chatops.py
