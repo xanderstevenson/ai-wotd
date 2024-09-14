@@ -26,3 +26,21 @@ Random Forest
 
 Supervised Learning
  was successfully posted to Webex Teams on 2024-09-05 09:00:05.902735
+
+Indirect normativity
+ was successfully posted to Webex Teams on 2024-09-06 09:00:02.696626
+
+Hyperparameter optimization
+ was successfully posted to Webex Teams on 2024-09-09 09:00:01.764579
+
+Clustering
+ was successfully posted to Webex Teams on 2024-09-10 09:00:05.513769
+
+Unsupervised Learning
+ was successfully posted to Webex Teams on 2024-09-11 09:00:02.578140
+
+AI alignment
+ was successfully posted to Webex Teams on 2024-09-12 09:00:02.018774
+
+Seed AI
+ was successfully posted to Webex Teams on 2024-09-13 09:00:05.213240
