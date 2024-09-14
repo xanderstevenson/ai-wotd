@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository to access your scripts
+      # Checkout the repository to access your scripts and db.json
       - name: Checkout repository
         uses: actions/checkout@v3
 
@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'  # Replace with your required Python version
+          python-version: '3.x'
 
       # Install dependencies
       - name: Install dependencies
@@ -33,3 +33,14 @@ jobs:
           TEAMS_ACCESS_TOKEN: ${{ secrets.TEAMS_ACCESS_TOKEN }}
         run: |
           python3 chatops.py
+
+      # Commit and push changes to db-test.json
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add db-test.json
+          git commit -m "Update db-test.json with new word"
+          git push https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
+        env:
+          PAT: ${{ secrets.PAT }}
