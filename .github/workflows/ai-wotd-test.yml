@@ -1,4 +1,4 @@
-name: Run Daily Script
+name: Test Daily Script
 
 on:
   schedule:
