@@ -7,7 +7,16 @@ from requests_oauthlib import OAuth1Session
 import os
 from test_terms import return_word
 from datetime import datetime
-from p_words import TEAMS_ACCESS_TOKEN
+
+# from p_words import TEAMS_ACCESS_TOKEN
+
+# Retrieve the access token from the environment variable
+TEAMS_ACCESS_TOKEN = os.getenv("TEAMS_ACCESS_TOKEN")
+
+if TEAMS_ACCESS_TOKEN:
+    print("Access token retrieved successfully")
+else:
+    print("Failed to retrieve access token")
 
 
 # Simple Bot Function for passing messages to a room
