@@ -384,6 +384,36 @@ def return_word():
             "url": "https://ordinaryideas.wordpress.com/2012/04/21/indirect-normativity-write-up/",
             "id": 60,
         },
+        {
+            "name": "Data bias vs. Algorithmic bias vs. Evaluation bias",
+            "definition": "Data bias occurs when the training data used for a model is unrepresentative or imbalanced, leading to skewed outcomes that reflect those biases.\n\nAlgorithmic bias arises when the design or mechanics of an algorithm inherently favor certain outcomes, independent of the data, often due to flawed assumptions or incorrect model implementations.\n\nEvaluation bias happens when the metrics or methods used to assess a model’s performance do not adequately capture its fairness or accuracy across different groups, resulting in misleading conclusions about its effectiveness or equity. Each type of bias can impact AI models in unique ways, but they all contribute to unfair or inaccurate decision-making if not properly addressed.\n\nOther types of biases found in AI are discussed in the article linked below.",
+            "url": "https://www.ibm.com/topics/ai-bias",
+            "id": 61,
+        },
+        {
+            "name": "Context window",
+            "definition": "A context window refers to the amount of text or information an AI model can consider at one time when generating a response or making a prediction. It defines the range of input tokens (words or characters) the model can 'see' and use to understand the current context. For example, if a model has a context window of 2048 tokens, it can process and generate responses based on up to 2048 tokens of input text at once. Anything beyond this limit is typically truncated or ignored, which can affect the model's understanding and coherence in longer conversations or documents.",
+            "url": "https://www.respell.ai/post/what-are-context-windows-and-what-do-they-do",
+            "id": 62,
+        },
+        {
+            "name": "Data wrangling",
+            "definition": "Data wrangling, sometimes referred to as data munging, is the process of transforming and mapping data from one ‘raw’ data form into another format with the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics. The goal of data wrangling is to assure quality and useful data. Data analysts typically spend the majority of their time in the process of data wrangling compared to the actual analysis of the data.",
+            "url": "https://en.wikipedia.org/wiki/Data_wrangling",
+            "id": 63,
+        },
+        {
+            "name": "Prediction vs. Forecasting",
+            "definition": "Prediction in AI refers to estimating the outcome or value of a specific event or data point based on current or historical data, often without considering the element of time. It typically deals with classification or regression tasks, such as predicting whether an email is spam or estimating house prices.\n\nForecasting, on the other hand, specifically involves making estimates about future events by analyzing trends, patterns, and historical data over time. It accounts for temporal dynamics and is commonly used for time series analysis, such as forecasting stock prices or weather conditions. While both involve estimating outcomes, forecasting is inherently temporal, focusing on future trends, whereas prediction is more general and can apply to both present and future data points.",
+            "url": "https://plat.ai/blog/difference-between-prediction-and-forecast/",
+            "id": 64,
+        },
+        {
+            "name": "Explainable AI (XAI)",
+            "definition": "Explainable AI (XAI) refers to a set of methods and techniques designed to make the outputs and decision-making processes of AI models more understandable and interpretable to humans. The goal of XAI is to provide transparency in AI systems, enabling users to comprehend how and why a model makes specific predictions or decisions. This is crucial for building trust, ensuring accountability, and identifying potential biases or errors in the model.\n\nXAI techniques can include visualizations, feature importance scores, or simplified models that approximate complex ones. It is especially important in high-stakes fields like healthcare, finance, and legal systems, where understanding the rationale behind AI decisions is essential for ethical and responsible use.",
+            "url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
+            "id": 65,
+        },
         # {
         #     "name": "",
         #     "definition": "",
