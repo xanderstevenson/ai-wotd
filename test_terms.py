@@ -405,6 +405,36 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
             "id": 65,
         },
+        {
+            "name": "Multi-agent system",
+            "definition": "A multi-agent system (MAS or ‘self-organized system’) is a computerized system composed of multiple interacting intelligent agents. Multi-agent systems can solve problems that are difficult or impossible for an individual agent or a monolithic system to solve. Intelligence may include methodic, functional, procedural approaches, algorithmic search or reinforcement learning.",
+            "url": "https://en.wikipedia.org/wiki/Multi-agent_system",
+            "id": 66,
+        },
+        {
+            "name": "Information theory",
+            "definition": "Information theory is the mathematical study of the quantification, storage, and communication of information. The field was established and put on a firm footing by Claude Shannon in the 1940s, though early contributions were made in the 1920s through the works of Harry Nyquist and Ralph Hartley. It is at the intersection of electronic engineering, mathematics, statistics, computer science, neurobiology, physics, and electrical engineering.\n\nA key measure in information theory is entropy. Entropy quantifies the amount of uncertainty involved in the value of a random variable or the outcome of a random process. For example, identifying the outcome of a fair coin flip (which has two equally likely outcomes) provides less information (lower entropy, less uncertainty) than identifying the outcome from a roll of a die (which has six equally likely outcomes). Some other important measures in information theory are mutual information, channel capacity, error exponents, and relative entropy. Important sub-fields of information theory include source coding, algorithmic complexity theory, algorithmic information theory and information-theoretic security.",
+            "url": "https://en.wikipedia.org/wiki/Information_theory",
+            "id": 67,
+        },
+        {
+            "name": "Graphical model",
+            "definition": "A graphical model or probabilistic graphical model (PGM) or structured probabilistic model is a probabilistic model for which a graph expresses the conditional dependence structure between random variables. They are commonly used in probability theory, statistics—particularly Bayesian statistics—and machine learning.\n\nGenerally, probabilistic graphical models use a graph-based representation as the foundation for encoding a distribution over a multi-dimensional space and a graph that is a compact or factorized representation of a set of independences that hold in the specific distribution.\n\nTwo branches of graphical representations of distributions are commonly used, namely, Bayesian networks and Markov random fields. Both families encompass the properties of factorization and independences, but they differ in the set of independences they can encode and the factorization of the distribution that they induce.",
+            "url": "https://en.wikipedia.org/wiki/Graphical_model",
+            "id": 68,
+        },
+        {
+            "name": "Markov Decision Process",
+            "definition": "Markov decision process (MDP), also called a stochastic dynamic program or stochastic control problem, is a model for sequential decision making when outcomes are uncertain.\n\nOriginating from operations research in the 1950s, MDPs have since gained recognition in a variety of fields, including ecology, economics, healthcare, telecommunications and reinforcement learning. Reinforcement learning utilizes the MDP framework to model the interaction between a learning agent and its environment. In this framework, the interaction is characterized by states, actions, and rewards. The MDP framework is designed to provide a simplified representation of key elements of artificial intelligence challenges. These elements encompass the understanding of cause and effect, the management of uncertainty and nondeterminism, and the pursuit of explicit goals.\n\nThe name comes from its connection to Markov chains, a concept developed by the Russian mathematician Andrey Markov. The ‘Markov’ in ‘Markov decision process’ refers to the underlying structure of state transitions that still follow the Markov property. The process is called a ‘decision process’ because it involves making decisions that influence these state transitions, extending the concept of a Markov chain into the realm of decision-making under uncertainty.",
+            "url": "https://en.wikipedia.org/wiki/Markov_decision_process",
+            "id": 69,
+        },
+        {
+            "name": "Exploration-exploitation tradeoff",
+            "definition": "The exploration-exploitation dilemma, also known as the explore-exploit tradeoff, is a fundamental concept in decision-making that arises in many domains. It is depicted as the balancing act between two opposing strategies. Exploitation involves choosing the best option based on current knowledge of the system (which may be incomplete or misleading), while exploration involves trying out new options that may lead to better outcomes in the future at the expense of an exploitation opportunity. Finding the optimal balance between these two strategies is a crucial challenge in many decision-making problems whose goal is to maximize long-term benefits.\n\nIn the context of machine learning, the exploration-exploitation tradeoff is fundamental in reinforcement learning (RL), a type of machine learning that involves training agents to make decisions based on feedback from the environment. Crucially, this feedback may be incomplete or delayed. The agent must decide whether to exploit the current best-known policy or explore new policies to improve its performance.",
+            "url": "https://en.wikipedia.org/wiki/Exploration-exploitation_dilemma",
+            "id": 70,
+        },
         # {
         #     "name": "",
         #     "definition": "",
