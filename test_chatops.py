@@ -7,10 +7,11 @@ import os
 from test_terms import return_word
 from datetime import datetime
 
-# from p_words import TEAMS_ACCESS_TOKEN
 
-# Retrieve the access token from the environment variable
+# Retrieve the environment variables
 TEAMS_ACCESS_TOKEN = os.getenv("TEAMS_ACCESS_TOKEN")
+profile_id = os.getenv("PROFILE_ID")
+li_access_token = os.getenv("LI_ACCESS_TOKEN")
 
 if TEAMS_ACCESS_TOKEN:
     print("Access token retrieved successfully")
@@ -31,6 +32,44 @@ def send_it(token, room_id, message):
         data=json.dumps(data),
         verify=True,
     )
+
+
+# post to LinkedIn
+# will change to https://api.linkedin.com/rest/posts
+def post(profile_id, li_access_token, random_word_name, definition, word_url):
+
+    url = "https://api.linkedin.com/v2/ugcPosts"
+
+    headers = {
+        "Content-Type": "application/json",
+        "X-Restli-Protocol-Version": "2.0.0",
+        "Authorization": "Bearer " + li_access_token,
+    }
+    # make new variable for linkedin hashtag, lowercase it and remove spaces
+    random_word_linkedin = random_word_name.lower().replace(" ", "")
+    # remove abbreviations for linkedin hashtag
+    # remove everything between ()
+    random_word_linkedin = re.sub("\(.*?\)", "()", random_word_linkedin)
+    # remove (), -.  and /
+    random_word_linkedin = random_word_linkedin.replace("(", "").replace(")", "")
+    random_word_linkedin = random_word_linkedin.replace("-", "").replace("/", "")
+    random_word_linkedin = random_word_linkedin.replace(".", "")
+    post_data = {
+        "author": "urn:li:person:" + profile_id,
+        "lifecycleState": "PUBLISHED",
+        "specificContent": {
+            "com.linkedin.ugc.ShareContent": {
+                "shareCommentary": {
+                    "text": f"---------------------\nThe AI Daily Dose\n---------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nThis automated post was created by Alexander Stevenson using #Python and a LinkedIn #API.\n\nFeel free to share related resources and/or discuss this topic in the comments.\n\nAnyone can join the Webex space for the AI Daily Dose: https://eurl.io/#vPEHI7XF1\n\n#Tech #AIDailyDose #{random_word_linkedin} #AI #ArtificialIntelligence"
+                },
+                "shareMediaCategory": "NONE",
+            }
+        },
+        "visibility": {"com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"},
+    }
+
+    response = requests.post(url, headers=headers, json=post_data)
+    return response
 
 
 if __name__ == "__main__":
