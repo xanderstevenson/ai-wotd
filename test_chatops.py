@@ -12,7 +12,6 @@ from datetime import datetime
 TEAMS_ACCESS_TOKEN = os.getenv("TEAMS_ACCESS_TOKEN")
 profile_id = os.getenv("PROFILE_ID")
 li_access_token = os.getenv("LI_ACCESS_TOKEN")
-test_teams_room = os.getenv("TEST_TEAMS_ROOM")
 
 if TEAMS_ACCESS_TOKEN:
     print("Access token retrieved successfully")
@@ -78,6 +77,10 @@ if __name__ == "__main__":
     # Command line arguments parsing
     from argparse import ArgumentParser
 
+    # Bot Testing room
+    teams_room = (
+        "Y2lzY29zcGFyazovL3VzL1JPT00vMGI1OGQyODAtNWQ4Ny0xMWVhLTk3YzMtNjMxZThlNjhkY2I1"
+    )
 
     the_message = ""
     # fetch random dictionary containing word as key and definition as value
@@ -163,7 +166,7 @@ if __name__ == "__main__":
     ]
 
     # Now let's post our message to Webex Teams
-    res = send_it(TEAMS_ACCESS_TOKEN, test_teams_room, the_message)
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
     if res.status_code == 200:
         print(f"{word} was successfully posted to Webex Teams on {datetime.now()}")
 
