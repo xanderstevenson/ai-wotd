@@ -60,7 +60,7 @@ def post(profile_id, li_access_token, random_word_name, definition, word_url):
         "specificContent": {
             "com.linkedin.ugc.ShareContent": {
                 "shareCommentary": {
-                    "text": f"---------------------\nThe AI Daily Dose\n---------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nThis automated post was created by Alexander Stevenson using #Python and a LinkedIn #API.\n\nFeel free to share related resources and/or discuss this topic in the comments.\n\nAnyone can join the Webex space for the AI Daily Dose: https://eurl.io/#vPEHI7XF1\n\n#Tech #AIDailyDose #{random_word_linkedin} #AI #ArtificialIntelligence"
+                    "text": f"-------------\nAI Daily Dose\n-------------\n\n{random_word_name}\n\n\n{definition}\n\n\n#Tech #AIDailyDose #{random_word_linkedin} #AI #ArtificialIntelligenceThis automated post was created using #Python and a LinkedIn #API. Feel free to share related resources and/or discuss this topic in the comments. Anyone can join the Webex space for the AI Daily Dose: https://eurl.io/#vPEHI7XF1"
                 },
                 "shareMediaCategory": "NONE",
             }
