@@ -1,4 +1,3 @@
-#!/Users/alexstev/Documents/CiscoDevNet/code/ai-wod/venv/bin/python3
 import json
 import requests
 import re
@@ -11,6 +10,8 @@ from datetime import datetime
 
 # Retrieve the access token from the environment variable
 TEAMS_ACCESS_TOKEN = os.getenv("TEAMS_ACCESS_TOKEN")
+profile_id = os.getenv("PROFILE_ID")
+li_access_token = os.getenv("LI_ACCESS_TOKEN")
 
 if TEAMS_ACCESS_TOKEN:
     print("Access token retrieved successfully")
@@ -30,6 +31,43 @@ def send_it(token, room_id, message):
         data=json.dumps(data),
         verify=True,
     )
+
+# post to LinkedIn
+# will change to https://api.linkedin.com/rest/posts
+def post(profile_id, li_access_token, random_word_name, definition, word_url):
+
+    url = "https://api.linkedin.com/v2/ugcPosts"
+
+    headers = {
+        "Content-Type": "application/json",
+        "X-Restli-Protocol-Version": "2.0.0",
+        "Authorization": "Bearer " + li_access_token,
+    }
+    # make new variable for linkedin hashtag, lowercase it and remove spaces
+    random_word_linkedin = random_word_name.lower().replace(" ", "")
+    # remove abbreviations for linkedin hashtag
+    # remove everything between ()
+    random_word_linkedin = re.sub("\(.*?\)", "()", random_word_linkedin)
+    # remove (), -.  and /
+    random_word_linkedin = random_word_linkedin.replace("(", "").replace(")", "")
+    random_word_linkedin = random_word_linkedin.replace("-", "").replace("/", "")
+    random_word_linkedin = random_word_linkedin.replace(".", "")
+    post_data = {
+        "author": "urn:li:person:" + profile_id,
+        "lifecycleState": "PUBLISHED",
+        "specificContent": {
+            "com.linkedin.ugc.ShareContent": {
+                "shareCommentary": {
+                    "text": f"-------------\nAI Daily Dose\n-------------\n\n\n{random_word_name}\n\n\n{definition}\n\n\n#Tech #AIDailyDose #{random_word_linkedin} #AI #ArtificialIntelligence\n\nThis automated post was created using #Python and a LinkedIn #API. Feel free to share related resources and/or discuss this topic in the comments. Anyone can join the Webex space for the AI Daily Dose: https://eurl.io/#vPEHI7XF1"
+                },
+                "shareMediaCategory": "NONE",
+            }
+        },
+        "visibility": {"com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"},
+    }
+
+    response = requests.post(url, headers=headers, json=post_data)
+    return response
 
 
 if __name__ == "__main__":
@@ -141,3 +179,10 @@ if __name__ == "__main__":
             )
         elif res.status_code == 401:
             print("Please check if the access token is correct...")
+
+ # post to linkedin
+    res2 = post(profile_id, li_access_token, random_word_name, definition, word_url)
+    if res2.status_code == 201:
+        print(f"{word} was successfully posted to LinkedIn")
+    else:
+        print("failed with statusCode: %d" % res2.status_code)
