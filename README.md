@@ -5,7 +5,7 @@
 
 <li><p align="left">This project is based on an earlier project I created alled the Word of the Day. Read the Cisco Blog about the Word of the Day project here --> <a href='https://blogs.cisco.com/developer/automatewebexspace01'>'How to Create and Automate a Webex Space' on Cisco Blogs</a></p></li>
 
-<li><p align="left">See the Cisco Code Exchange entry for the Word of the Day project here --> <a href='https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/word-of-the-day-bot'>'word-of-the-day-bot' on Cisco Code Exchange</a></p>
+<li><p align="left">See the Cisco Code Exchange entry for the Word of the Day project here --> <a href='https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/word-of-the-day-bot'>'word-of-the-day-bot'</a> on Cisco Code Exchange</p>
 
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/word-of-the-day-bot)
   </li>
