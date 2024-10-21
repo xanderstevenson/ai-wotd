@@ -20,7 +20,9 @@
 <h3 align="center">Intro</h3>
 
 
-Before my career in information technology, I was an educator. I began teaching inner-city kids in a summer camp, where I learned, practiced and taught many valuable lessons, including the importance of having fun and in keeping a positive daily routine. Later, I taught for the government and was inspired by the use of technology to save lives (both government and civilian). This was a catalyst for leading me back to computer technology (I was a programmer and technophile as a child). Finally, after earning a Master's in Education and while teaching aborad, I learned how to utilize Information and Communications Technology (ICT), in a daily routine, in order to transfer knowledge to students, essentially using some of the very technologies which serve to distract them, to teach them and to provide them the tools to teach themsleves.
+Before my career in information technology, I was an educator. I began teaching inner-city kids in a summer camp, where I learned, practiced and taught many valuable lessons, including the importance of having fun and in keeping a positive daily routine. Later, I taught for the government and was inspired by the use of technology to save lives (both government and civilian). 
+
+This was a catalyst for leading me back to computer technology (I was a programmer and technophile as a child). Finally, after earning a Master's in Education and while teaching aborad, I learned how to utilize Information and Communications Technology (ICT), in a daily routine, in order to transfer knowledge to students, essentially using some of the very technologies which serve to distract them, to teach them and to provide them the tools to teach themsleves.
 
 Daily, incremental presentation of relevant and challenging information is efficient, fun and provides a foundation for learning, communication and confidence which extends beyond the walls of classroom and corporate office alike.
 
