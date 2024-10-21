@@ -31,11 +31,17 @@ The AI Daily Dose is a Webex space where a random AI word/concept is sent daily.
 
 But interaction is not limited to the topic of the day. Members are encouraged to share any AI/ML related information in the space.
 
+<br>
 
-- Why should you join -  It's a great way to grow, spread, and practice your AI knowledge. Some people in the space are strictly learners, while others with more experience can impart their knowledge. Furthermore, it allows people who are interested in AI to network and socialize.
+<strong>Why should you join?</strong>
 
+It's a great way to grow, spread, and practice your AI knowledge. Some people in the space are strictly learners, while others with more experience can impart their knowledge. Furthermore, it allows people who are interested in AI to network and socialize.
+
+<br>
   	  
-- What will you get out of it -  Often, people are so busy with daily tasks that they don't have time to keep up with their AI learning and networking. By joining this space, IT professionals can establish a consistent pattern of daily AI learning and interaction. This can take as little as one minute (e.g., reading a word and its definition), while those who want to dive deeper or contribute to the discussion have the opportunity to do so.
+<strong></strong>What will you get out of it?</strong>
+
+Often, people are so busy with daily tasks that they don't have time to keep up with their AI learning and networking. By joining this space, IT professionals can establish a consistent pattern of daily AI learning and interaction. This can take as little as one minute (e.g., reading a word and its definition), while those who want to dive deeper or contribute to the discussion have the opportunity to do so.
 
 
 
