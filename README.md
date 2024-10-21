@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/word-of-the-day-bot)
+
 <h1 align="center">AI Daily Dose</h1>
 <p align="center"><h2 align="center">A Webex Space and Bot</h2></p>
 <ul>
@@ -7,7 +9,7 @@
 
 <li><p align="left">See the Cisco Code Exchange entry for the Word of the Day project here --> <a href='https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/word-of-the-day-bot'>'word-of-the-day-bot'</a> on Cisco Code Exchange</p>
 
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/word-of-the-day-bot)
+
   </li>
 </ul>
 
