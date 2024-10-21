@@ -11,7 +11,6 @@
   </li>
 </ul>
 
-<p align="center"><h1 align="center">How to Create and Automate a Webex Space</h1></p>
 
 <br>
 
