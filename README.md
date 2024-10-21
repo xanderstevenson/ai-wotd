@@ -1,7 +1,7 @@
 <h1 align="center">AI Daily Dose</h1>
 <p align="center"><h2 align="center">A Webex Space and Bot</h2></p>
 <ul>
-<li><p align="left">Anyone with a Cisco domain account and Webex can join the Word of the Day by going here --> <a href='https://eurl.io/#vPEHI7XF1 '>Join the 'AI Daily Dose' on Webex</a></p></li>
+<li><p align="left">Anyone with Webex can join the AI Daily Dose by going here --> <a href='https://eurl.io/#vPEHI7XF1 '>Join the 'AI Daily Dose' on Webex</a></p></li>
 
 <li><p align="left">This project is based on an earlier project I created alled the Word of the Day. Read the Cisco Blog about the Word of the Day project here --> <a href='https://blogs.cisco.com/developer/automatewebexspace01'>'How to Create and Automate a Webex Space' on Cisco Blogs</a></p></li>
 
