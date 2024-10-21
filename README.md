@@ -28,7 +28,7 @@ Daily, incremental presentation of relevant and challenging information is effic
 
 <br>
 
-<h3 align="center">Purpose</h3>
+<h3> align="center">Purpose</h3>
 
 <strong>What is it?</strong>
 
@@ -45,6 +45,5 @@ It's a great way to grow, spread, and practice your AI knowledge. Some people in
 <br>
   	  
 <strong>What will you get out of it?</strong>
-
 
 Often, people are so busy with daily tasks that they don't have time to keep up with their AI learning and networking. By joining this space, IT professionals can establish a consistent pattern of daily AI learning and interaction. This can take as little as one minute (e.g., reading a word and its definition), while those who want to dive deeper or contribute to the discussion have the opportunity to do so.
