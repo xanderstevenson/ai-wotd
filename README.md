@@ -25,7 +25,7 @@ Daily, incremental presentation of relevant and challenging information is effic
 
 <h3 align="center">Purpose</h3>
 
-- What is it? 
+<strong>What is it?</strong>
 
 The AI Daily Dose is a Webex space where a random AI word/concept is sent daily. It includes a definition and a link to learn more. Users can then interact by posting and sharing anecdotes, images, or memes relating to the AI concept.
 
@@ -39,5 +39,3 @@ But interaction is not limited to the topic of the day. Members are encouraged t
 
 
 
-
-I had created an empty __init__.py file in the root directory out of habit. Before Python 3.3 this was done to to make Python treat the directories as containing packages and facilitate importing between modules. From Python 3.3+ Implicit Namespace Packages are supported which allows the creation of a package without an __init__.py file. This however only applies to empty __init__.py files. So empty __init__.py files are no longer necessary and can be omitted.
