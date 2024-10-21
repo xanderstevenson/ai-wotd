@@ -22,6 +22,7 @@ Before my career in information technology, I was an educator. I began teaching 
 
 Daily, incremental presentation of relevant and challenging information is efficient, fun and provides a foundation for learning, communication and confidence which extends beyond the walls of classroom and corporate office alike.
 
+<br>
 
 <h3 align="center">Purpose</h3>
 
