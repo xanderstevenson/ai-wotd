@@ -444,6 +444,30 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Exploration-exploitation_dilemma",
             "id": 70,
         },
+        {
+            "name": "AI Washing",
+            "definition": "AI washing is a deceptive marketing tactic that consists of promoting a product or a service by overstating the role of artificial intelligence integration in it. It raises concerns regarding transparency, consumer trust in the AI industry, and compliance with security regulations, potentially hampering legitimate advancements in AI.",
+            "url": "https://en.wikipedia.org/wiki/AI_washing",
+            "id": 71,
+        },
+        {
+            "name": "seq2seq",
+            "definition": "seq2seq is a family of machine learning approaches used for natural language processing. Applications include language translation, image captioning, conversational models, and text summarization. Seq2seq uses sequence transformation: it turns one sequence into another sequence.\n\nConcretely, seq2seq maps an input sequence into a real-numerical vector by a neural network (the encoder), then map it back to an output sequence using another neural network (the decoder).",
+            "url": "https://en.wikipedia.org/wiki/Seq2seq",
+            "id": 72,
+        },
+        {
+            "name": "Encoder–Decoder Architecture",
+            "definition": "Encoder-decoder architectures are powerful tools used in machine learning, specifically for tasks involving sequences like text or speech. They consist of two parts: an encoder that takes a variable-length sequence as input, and a decoder that acts as a conditional language model The encoder takes a variable-length sequence as input and transforms it into a state with a fixed shape. The decoder maps the vector representation back to a variable-length target sequence.",
+            "url": "https://d2l.ai/chapter_recurrent-modern/encoder-decoder.html",
+            "id": 73,
+        },
+        {
+            "name": "Siamese neural network",
+            "definition": "A Siamese neural network (sometimes called a twin neural network) is an artificial neural network that uses the same weights while working in tandem on two different input vectors to compute comparable output vectors. Often one of the output vectors is precomputed, thus forming a baseline against which the other output vector is compared. This is similar to comparing fingerprints but can be described more technically as a distance function for locality-sensitive hashing.\n\nUses of similarity measures where a twin network might be used are such things as recognizing handwritten checks, automatic detection of faces in camera images, and matching queries with indexed documents.\n\nThe perhaps most well-known application of twin networks are face recognition, where known images of people are precomputed and compared to an image from a turnstile or similar. It is not obvious at first, but there are two slightly different problems. One is recognizing a person among a large number of other persons, that is the facial recognition problem. DeepFace is an example of such a system. In its most extreme form this is recognizing a single person at a train station or airport. The other is face verification, that is to verify whether the photo in a pass is the same as the person claiming he or she is the same person. The twin network might be the same, but the implementation can be quite different.",
+            "url": "https://en.wikipedia.org/wiki/Siamese_neural_network",
+            "id": 74,
+        },
         # {
         #     "name": "",
         #     "definition": "",
