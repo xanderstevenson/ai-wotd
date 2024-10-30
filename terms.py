@@ -468,6 +468,42 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Siamese_neural_network",
             "id": 74,
         },
+        {
+            "name": "Central Limit Theorem",
+            "definition": "The Central Limit Theorem (CLT) states that the distribution of the sum (or average) of a large number of independent and identically distributed random variables tends to be normally distributed, regardless of the original distribution of the variables. This theorem is foundational in statistics because it justifies the use of the normal distribution in many statistical methods and helps in making inferences about population parameters based on sample statistics.\n\n(CLT) states that, under appropriate conditions, the distribution of a normalized version of the sample mean converges to a standard normal distribution. This holds even if the original variables themselves are not normally distributed. There are several versions of the CLT, each applying in the context of different conditions.",
+            "url": "https://en.wikipedia.org/wiki/Central_limit_theorem",
+            "id": 75,
+        },
+        {
+            "name": "Backpropagation",
+            "definition": "Backpropagation is a supervised learning algorithm used for training artificial neural networks. It involves a forward pass where input data is processed through the network to produce an output, followed by a backward pass where the algorithm calculates the gradient of the loss function with respect to each weight by the chain rule. This information is then used to update the weights to minimize the error in predictions. Backpropagation is essential for the efficient training of deep learning models.",
+            "url": "https://en.wikipedia.org/wiki/Backpropagation",
+            "id": 76,
+        },
+        {
+            "name": "Ground Value vs. Output Value",
+            "definition": "In the context of machine learning and neural networks, the ground value (or ground truth) refers to the actual, known value or label for a particular input sample, representing the expected outcome. The output value is the predicted value produced by the model after processing the input. Evaluating the difference between the ground value and the output value is crucial for measuring the model's performance and calculating the loss during training.",
+            "url": "https://en.wikipedia.org/wiki/Ground_truth",
+            "id": 77,
+        },
+        {
+            "name": "Local vs. Global Maxima and Minima",
+            "definition": "In optimization, a local maximum is a point where the function value is higher than all nearby points, while a global maximum is the highest point in the entire function. Similarly, a local minimum is lower than its neighbors, while a global minimum is the lowest point overall. Distinguishing between local and global extrema is important, especially in complex functions where optimization algorithms may get stuck in local optima.",
+            "url": "https://en.wikipedia.org/wiki/Maximum_and_minimum",
+            "id": 78,
+        },
+        {
+            "name": "Convex Optimization",
+            "definition": "Convex optimization is a subfield of mathematical optimization that studies the problem of minimizing convex functions over convex sets. A function is convex if its second derivative is positive, indicating that the curve bends upwards, while a set is convex if, for any two points within the set, the line segment connecting them lies entirely within the set. Convex optimization problems have desirable properties, such as having a unique global minimum, making them easier to solve.",
+            "url": "https://en.wikipedia.org/wiki/Convex_optimization",
+            "id": 79,
+        },
+        {
+            "name": "Robot Learning",
+            "definition": "Robot learning is a field of study focused on the ability of robots to learn from their environments and experiences to improve their performance on tasks. It encompasses various techniques from machine learning and artificial intelligence, allowing robots to adapt to changes, learn new skills, and make decisions autonomously. Robot learning combines elements of reinforcement learning, supervised learning, and unsupervised learning to enable robots to operate effectively in dynamic settings.",
+            "url": "https://en.wikipedia.org/wiki/Robot_learning",
+            "id": 80,
+        },
         # {
         #     "name": "",
         #     "definition": "",
