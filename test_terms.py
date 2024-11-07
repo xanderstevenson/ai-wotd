@@ -487,44 +487,44 @@ def return_word():
             "name": "Convex Optimization",
             "definition": "Convex optimization is a subfield of mathematical optimization that studies the problem of minimizing convex functions over convex sets. A function is convex if its second derivative is positive, indicating that the curve bends upwards, while a set is convex if, for any two points within the set, the line segment connecting them lies entirely within the set. Convex optimization problems have desirable properties, such as having a unique global minimum, making them easier to solve.",
             "url": "https://en.wikipedia.org/wiki/Convex_optimization",
-            "id": 79
+            "id": 79,
         },
         {
             "name": "Robot Learning",
             "definition": "Robot learning is a field of study focused on the ability of robots to learn from their environments and experiences to improve their performance on tasks. It encompasses various techniques from machine learning and artificial intelligence, allowing robots to adapt to changes, learn new skills, and make decisions autonomously. Robot learning combines elements of reinforcement learning, supervised learning, and unsupervised learning to enable robots to operate effectively in dynamic settings.",
             "url": "https://en.wikipedia.org/wiki/Robot_learning",
-            "id": 80
+            "id": 80,
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 9
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 0
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 1
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3
-        # },
+        {
+            "name": "One-shot learning",
+            "definition": "One-shot learning is an object categorization problem, found mostly in computer vision. Whereas most machine learning-based object categorization algorithms require training on hundreds or thousands of examples, one-shot learning aims to classify objects from one, or only a few, examples. The term few-shot learning is also used for these problems, especially when more than one example is needed.",
+            "url": "https://en.wikipedia.org/wiki/One-shot_learning_(computer_vision)",
+            "id": 81,
+        },
+        {
+            "name": "Zero-shot learning",
+            "definition": "Zero-shot learning (ZSL) is a problem setup in deep learning where, at test time, a learner observes samples from classes which were not observed during training, and needs to predict the class that they belong to. The name is a play on words based on the earlier concept of one-shot learning, in which classification can be learned from only one, or a few, examples.\n\nZero-shot methods generally work by associating observed and non-observed classes through some form of auxiliary information, which encodes observable distinguishing properties of objects. For example, given a set of images of animals to be classified, along with auxiliary textual descriptions of what animals look like, an artificial intelligence model which has been trained to recognize horses, but has never been given a zebra, can still recognize a zebra when it also knows that zebras look like striped horses. This problem is widely studied in computer vision, natural language processing, and machine perception.",
+            "url": "https://en.wikipedia.org/wiki/Zero-shot_learning",
+            "id": 82,
+        },
+        {
+            "name": "Graph neural network",
+            "definition": "A graph neural network (GNN) belongs to a class of artificial neural networks for processing data that can be represented as graphs.\n\nIn the more general subject of ‘geometric deep learning’, certain existing neural network architectures can be interpreted as GNNs operating on suitably defined graphs. A convolutional neural network layer, in the context of computer vision, can be considered a GNN applied to graphs whose nodes are pixels and only adjacent pixels are connected by edges in the graph. A transformer layer, in natural language processing, can be considered a GNN applied to complete graphs whose nodes are words or tokens in a passage of natural language text.",
+            "url": "https://en.wikipedia.org/wiki/Graph_neural_network",
+            "id": 83,
+        },
+        {
+            "name": "Deep reinforcement learning",
+            "definition": "Deep reinforcement learning (deep RL) is a subfield of machine learning that combines reinforcement learning (RL) and deep learning. RL considers the problem of a computational agent learning to make decisions by trial and error. Deep RL incorporates deep learning into the solution, allowing agents to make decisions from unstructured input data without manual engineering of the state space.\n\nDeep RL algorithms are able to take in very large inputs (e.g. every pixel rendered to the screen in a video game) and decide what actions to perform to optimize an objective (e.g. maximizing the game score). Deep reinforcement learning has been used for a diverse set of applications including but not limited to robotics, video games, natural language processing, computer vision, education, transportation, finance and healthcare.",
+            "url": "https://en.wikipedia.org/wiki/Deep_reinforcement_learning",
+            "id": 84,
+        },
+        {
+            "name": "Data-Centric AI",
+            "definition": "Data-Centric AI (DCAI) is an emerging science that studies techniques to improve datasets, which is often the best way to improve performance in practical ML applications. While good data scientists have long practiced this manually via ad hoc trial/error and intuition, DCAI considers the improvement of data as a systematic engineering discipline.\n\nWhile manual exploratory data analysis is a key first step of understanding and improving any dataset, data-centric AI uses AI methods to more systematically diagnose and fix issues that commonly plague real-world datasets. Data-centric AI can take one of two forms:\n\n- AI algorithms that understand data and use that information to improve models. Curriculum learning is an example of this, in which ML models are trained on ‘easy data’ first.\n\n- AI algorithms that modify data to improve AI models. Confident learning is an example of this, in which ML models are trained on a filtered dataset where mislabeled data has been removed.\n\nIn both examples above, determining which data is easy or mislabeled is estimated automatically via algorithms applied to the outputs of trained ML models.",
+            "url": "https://dcai.csail.mit.edu/",
+            "id": 85,
+        },
         # {
         #     "name": "",
         #     "definition": "",
