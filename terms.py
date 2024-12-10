@@ -534,6 +534,36 @@ def return_word():
             "url": "https://dcai.csail.mit.edu/",
             "id": 85,
         },
+        {
+            "name": "Exponential smoothing",
+            "definition": "Exponential smoothing or exponential moving average (EMA) is a rule of thumb technique for smoothing time series data using the exponential window function. Whereas in the simple moving average the past observations are weighted equally, exponential functions are used to assign exponentially decreasing weights over time.\n\nIt is an easily learned and easily applied procedure for making some determination based on prior assumptions by the user, such as seasonality. Exponential smoothing is often used for analysis of time-series data.",
+            "url": "https://en.wikipedia.org/wiki/Exponential_smoothing",
+            "id": 86
+        },
+        {
+            "name": "ARIMA",
+            "definition": "In time series analysis used in statistics and econometrics, autoregressive integrated moving average (ARIMA) and seasonal ARIMA (SARIMA) models are generalizations of the autoregressive moving average (ARMA) model to non-stationary series and periodic variation, respectively. All these models are fitted to time series in order to better understand it and predict future values. The purpose of these generalizations is to fit the data as well as possible. Specifically, ARMA assumes that the series is stationary, that is, its expected value is constant in time. If instead the series has a trend (but a constant variance/autocovariance), the trend is removed by ‘differencing’, leaving a stationary series. This operation generalizes ARMA and corresponds to the ‘integrated’ part of ARIMA. Analogously, periodic variation is removed by ‘seasonal differencing’.",
+            "url": "https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average",
+            "id": 87
+        },
+        {
+            "name": "Seasonality",
+            "definition": "In time series data, seasonality refers to the trends that occur at specific regular intervals less than a year, such as weekly, monthly, or quarterly. Seasonality may be caused by various factors, such as weather, vacation, and holidays and consists of periodic, repetitive, and generally regular and predictable patterns in the levels of a time series.\n\nSeasonal fluctuations in a time series can be contrasted with cyclical patterns. The latter occur when the data exhibits rises and falls that are not of a fixed period. Such non-seasonal fluctuations are usually due to economic conditions and are often related to the ‘business cycle’; their period usually extends beyond a single year, and the fluctuations are usually of at least two years.",
+            "url": "https://en.wikipedia.org/wiki/Seasonality",
+            "id": 88
+        },
+        {
+            "name": "Pearson Correlation",
+            "definition": "In statistics, the Pearson correlation coefficient (PCC) is a correlation coefficient that measures linear correlation between two sets of data. It is the ratio between the covariance of two variables and the product of their standard deviations; thus, it is essentially a normalized measurement of the covariance, such that the result always has a value between −1 and 1. As with covariance itself, the measure can only reflect a linear correlation of variables, and ignores many other types of relationships or correlations. As a simple example, one would expect the age and height of a sample of children from a primary school to have a Pearson correlation coefficient significantly greater than 0, but less than 1 (as 1 would represent an unrealistically perfect correlation).",
+            "url": "https://en.wikipedia.org/wiki/Pearson_correlation_coefficient",
+            "id": 89
+        },
+        {
+            "name": "Concept drift",
+            "definition": "In predictive analytics, data science, machine learning and related fields, concept drift or drift is an evolution of data that invalidates the data model. It happens when the statistical properties of the target variable, which the model is trying to predict, change over time in unforeseen ways. This causes problems because the predictions become less accurate as time passes. Drift detection and drift adaptation are of paramount importance in the fields that involve dynamically changing data and data models.",
+            "url": "https://en.wikipedia.org/wiki/Concept_drift",
+            "id": 90
+        },
         # {
         #     "name": "",
         #     "definition": "",
