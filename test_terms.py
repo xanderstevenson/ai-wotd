@@ -555,35 +555,36 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Concept_drift",
             "id": 90
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 9
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 0
-        # },
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 1
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3
-        # },
+        {
+            "name": "Curriculum learning",
+            "definition": "Curriculum learning is a technique in machine learning in which a model is trained on examples of increasing difficulty, where the definition of ‘difficulty’ may be provided externally or discovered automatically as part of the training process. This is intended to attain good performance more quickly, or to converge to a better local optimum if the global optimum is not found.",
+            "url": "https://en.wikipedia.org/wiki/Curriculum_learning",
+            "id": 91
+        },
+        {
+            "name": "Confident learning",
+            "definition": "Confident learning (CL) is an alternative approach to machine learning. It focuses on label quality by characterizing and identifying label errors in datasets. The approach is based on the principles of pruning noisy data, counting with probabilistic thresholds to estimate noise, and ranking examples to train with confidence",
+            "url": "https://arxiv.org/abs/1911.00068",
+            "id": 92
+        },
+        {
+            "name": "Weak supervision",
+            "definition": "Weak supervision (also known as semi-supervised learning) is a paradigm in machine learning, the relevance and notability of which increased with the advent of large language models due to large amount of data required to train them. It is characterized by using a combination of a small amount of human-labeled data (exclusively used in more expensive and time-consuming supervised learning paradigm), followed by a large amount of unlabeled data (used exclusively in unsupervised learning paradigm).\n\nIn other words, the desired output values are provided only for a subset of the training data. The remaining data is unlabeled or imprecisely labeled. Intuitively, it can be seen as an exam and labeled data as sample problems that the teacher solves for the class as an aid in solving another set of problems. In the transductive setting, these unsolved problems act as exam questions. In the inductive setting, they become practice problems of the sort that will make up the exam. Technically, it could be viewed as performing clustering and then labeling the clusters with the labeled data, pushing the decision boundary away from high-density regions, or learning an underlying one-dimensional manifold where the data reside.",
+            "url": "https://en.wikipedia.org/wiki/Weak_supervision",
+            "id": 93
+        },
+        {
+            "name": "Local Interpretable Model-Agnostic Explanations (Lime)",
+            "definition": "LIME (Local Interpretable Model-Agnostic Explanations) is a technique used in machine learning to explain the predictions made by complex, black-box models such as neural networks, ensemble methods (e.g., random forests, gradient boosting), or other algorithms that are not easily interpretable. It provides a way to understand why a model made a specific prediction for a given input.\n\nLIME is also a Python library which can be installed via pip (pip install lime) or by cloning the repository and installing it (git clone https://github.com/marcotcr/lime.git).LIME supports explanations for text classifiers, tabular data, and image classifiers.",
+            "url": "https://arxiv.org/abs/1602.04938",
+            "id": 94
+        },
+        {
+            "name": "Auditability in ML",
+            "definition": "Auditability in the AI context refers to the preparedness of an AI system to assess its algorithms, models, data, and design processes. Such assessment of AI applications by internal and external auditors helps justify the trustworthiness of the AI system. AI auditing is a necessary practice that exhibits the responsibility of AI system design and the justifiability of predictions delivered by models. AI auditability covers:\n- Evaluation of models, algorithms, and data streams\n- Analysis of operations, results, and anomalies observed\n- Technical aspects of AI systems for results accuracy\n- Ethical aspects of AI systems for fairness, legality, and privacy.\n\nAuditing AI systems is a modern approach to educate the C-suite about the value of AI adoptions, expose the risks involved to the businesses, and develop safeguard controls to avoid threats detected in audits. AI auditing defines systematic and piloted programs for better risk assessment and a high level of governance.\n\nEffective AI auditing requires the involvement of internal teams and third-party auditors. Enterprises sometimes need to share sensitive information to understand AI-driven functions that must be aligned with regulatory requirements or industry practices. It is recommended to keep a comprehensive record of data procurement, provenance, preprocessing, storage and lineage. Further, it includes reports on data availability, the integrity of data sources, data relevance, security aspects, and unforeseen data issues across data pipelines.",
+            "url": "https://censius.ai/blogs/ai-audit-guide",
+            "id": 95
+        },
         # {
         #     "name": "",
         #     "definition": "",
