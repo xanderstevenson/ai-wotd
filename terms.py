@@ -594,6 +594,36 @@ def return_word():
             "url": "https://censius.ai/blogs/ai-audit-guide",
             "id": 95
         },
+        {
+            "name": "Knowledge distillation",
+            "definition": "In machine learning, knowledge distillation or model distillation is the process of transferring knowledge from a large model to a smaller one. While large models (such as very deep neural networks or ensembles of many models) have more knowledge capacity than small models, this capacity might not be fully utilized. It can be just as computationally expensive to evaluate a model even if it utilizes little of its knowledge capacity. Knowledge distillation transfers knowledge from a large model to a smaller one without loss of validity. As smaller models are less expensive to evaluate, they can be deployed on less powerful hardware (such as a mobile device).",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_distillation",
+            "id": 96
+        },
+        {
+            "name": "Model compression",
+            "definition": "Model compression is a machine learning technique for reducing the size of trained models. Large models can achieve high accuracy, but often at the cost of significant resource requirements. Compression techniques aim to compress models without significant performance reduction. Smaller models require less storage space, and consume less memory and compute during inference.\n\nCompressed models enable deployment on resource-constrained devices such as smartphones, embedded systems, edge computing devices, and consumer electronics computers. Efficient inference is also valuable for large corporations that serve large model inference over an API, allowing them to reduce computational costs and improve response times for users.\n\nModel compression is not to be confused with knowledge distillation, in which a separate, smaller ‘student’ model is trained to imitate the input-output behavior of a larger ‘teacher’ model.",
+            "url": "https://en.wikipedia.org/wiki/Model_compression",
+            "id": 97
+        },
+        {
+            "name": "Perceptron",
+            "definition": "In machine learning, the perceptron (or McCulloch-Pitts neuron) is an algorithm for supervised learning of binary classifiers. A binary classifier is a function which can decide whether or not an input, represented by a vector of numbers, belongs to some specific class. It is a type of linear classifier, i.e. a classification algorithm that makes its predictions based on a linear predictor function combining a set of weights with the feature vector.",
+            "url": "https://en.wikipedia.org/wiki/Perceptron",
+            "id": 98
+        },
+        {
+            "name": "AutoML-Zero",
+            "definition": "AutoML-Zero is an approach developed by researchers at Google Research aimed at pushing the boundaries of automated machine learning (AutoML). Traditional AutoML focuses on automating the process of model selection, hyperparameter tuning, and training. AutoML-Zero takes this a step further by attempting to automatically discover machine learning algorithms from scratch, starting with only basic mathematical operations.",
+            "url": "https://research.google/blog/automl-zero-evolving-code-that-learns/",
+            "id": 99
+        },
+        {
+            "name": "Automated machine learning (AutoML)",
+            "definition": "Automated machine learning (AutoML) is the process of automating the tasks of applying machine learning to real-world problems. It is the combination of automation and ML.\n\nAutoML potentially includes every stage from beginning with a raw dataset to building a machine learning model ready for deployment. AutoML was proposed as an artificial intelligence-based solution to the growing challenge of applying machine learning. The high degree of automation in AutoML aims to allow non-experts to make use of machine learning models and techniques without requiring them to become experts in machine learning. Automating the process of applying machine learning end-to-end additionally offers the advantages of producing simpler solutions, faster creation of those solutions, and models that often outperform hand-designed models.\n\nCommon techniques used in AutoML include hyperparameter optimization, meta-learning and neural architecture search.",
+            "url": "https://en.wikipedia.org/wiki/Automated_machine_learning",
+            "id": 100
+        },
         # {
         #     "name": "",
         #     "definition": "",
