@@ -615,6 +615,72 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Automated_machine_learning",
             "id": 100
         },
+        {
+            "name": "Naïve Bayes",
+            "definition": "Naïve Bayes is a family of probabilistic algorithms based on applying Bayes' theorem with the assumption of conditional independence between features. It is commonly used in text classification and spam filtering tasks.",
+            "url": "https://en.wikipedia.org/wiki/Naive_Bayes_classifier",
+            "id": 101
+        },
+        {
+            "name": "Logistic Regression",
+            "definition": "Logistic Regression is a statistical method for analyzing a dataset in which one or more independent variables determine an outcome that is categorical, such as binary classification problems. It uses the logistic function to model probabilities.",
+            "url": "https://en.wikipedia.org/wiki/Logistic_regression",
+            "id": 102
+        },
+        {
+            "name": "HuggingFace",
+            "definition": "HuggingFace is a company and open-source platform providing tools and libraries for natural language processing (NLP) tasks, including pre-trained transformer models such as BERT, GPT, and others. It simplifies the implementation of state-of-the-art NLP models.",
+            "url": "https://huggingface.co/",
+            "id": 103
+        },
+        {
+            "name": "Incremental training",
+            "definition": "Incremental training is a machine learning approach in which a model is updated and trained further as new data becomes available, without retraining from scratch. It is particularly useful in environments with streaming data or frequent updates.",
+            "url": "https://en.wikipedia.org/wiki/Incremental_learning",
+            "id": 104
+        },
+        {
+            "name": "One hot encoded",
+            "definition": "One hot encoding is a method used to convert categorical data variables into binary vectors. Each category is represented as a unique binary vector, ensuring that no two categories have overlapping representations.",
+            "url": "https://en.wikipedia.org/wiki/One-hot",
+            "id": 105
+        },
+        {
+            "name": "Bidirectional LSTM",
+            "definition": "A Bidirectional Long Short-Term Memory (BiLSTM) network is a type of recurrent neural network (RNN) that processes data in both forward and backward directions. It is commonly used in natural language processing tasks for context-aware predictions.",
+            "url": "https://www.sciencedirect.com/topics/computer-science/bidirectional-long-short-term-memory-network",
+            "id": 106
+        },
+        {
+            "name": "Softmax activation",
+            "definition": "Softmax activation is a function used in neural networks to convert raw model outputs (logits) into probability distributions. It is commonly applied in the output layer for multi-class classification tasks.",
+            "url": "https://www.coursera.org/articles/softmax-activation-function",
+            "id": 107
+        },
+        {
+            "name": "Feed forward dense network",
+            "definition": "A feed forward dense network is a type of artificial neural network in which connections between the nodes do not form a cycle. Data flows in one direction, from input to output, passing through fully connected layers.",
+            "url": "https://arxiv.org/abs/2312.10560",
+            "id": 108
+        },
+        {
+            "name": "Small language model",
+            "definition": "A small language model refers to a natural language processing model that has a relatively smaller number of parameters compared to larger models like GPT-3. These models are more computationally efficient and often used for specific tasks.",
+            "url": "https://www.ibm.com/think/topics/small-language-models",
+            "id": 109
+        },
+        {
+            "name": "Retrieval Interleaved Generation (RIG)",
+            "definition": "Retrieval Interleaved Generation (RIG) is an approach in natural language processing that combines retrieval-based methods with generation techniques. It retrieves relevant content and integrates it into generated outputs for better context.",
+            "url": "https://www.llmwatch.com/p/googles-rag-alternative-retrieval",
+            "id": 110
+        },
+        {
+            "name": "Exploding Gradients",
+            "definition": "Exploding gradients is a problem in training deep neural networks where gradients become very large, causing instability or failure during optimization. Techniques like gradient clipping are used to mitigate this issue.",
+            "url": "https://machinelearningmastery.com/exploding-gradients-in-neural-networks/",
+            "id": 111
+        }
         # {
         #     "name": "",
         #     "definition": "",
