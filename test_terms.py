@@ -680,7 +680,110 @@ def return_word():
             "definition": "Exploding gradients is a problem in training deep neural networks where gradients become very large, causing instability or failure during optimization. Techniques like gradient clipping are used to mitigate this issue.",
             "url": "https://machinelearningmastery.com/exploding-gradients-in-neural-networks/",
             "id": 111
+        },
+        {
+            "name": "Machine Learning Control",
+            "definition": "Machine learning control involves the use of machine learning algorithms to design and optimize control systems for dynamic processes. It is often applied in robotics, autonomous systems, and industrial automation.",
+            "url": "https://en.wikipedia.org/wiki/Machine_learning_control",
+            "id": 112
+        },
+        {
+            "name": "Computer Vision",
+            "definition": "Computer vision is a field of artificial intelligence that trains computers to interpret and make decisions based on visual data, such as images or videos. Applications include facial recognition, object detection, and autonomous vehicles.",
+            "url": "https://www.ibm.com/topics/computer-vision",
+            "id": 113
+        },
+        {
+            "name": "Post Hoc Algorithm",
+            "definition": "Post hoc algorithms are techniques applied after an event or process to analyze results and provide interpretability or explanations for model decisions in machine learning.",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1389041724000378",
+            "id": 114
+        },
+        {
+            "name": "Depth-First Search and Breadth-First Search",
+            "definition": "Depth-First Search (DFS) and Breadth-First Search (BFS) are graph traversal algorithms. DFS explores as far as possible along a branch before backtracking, while BFS explores all neighbors at the current depth before moving deeper.",
+            "url": "https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/",
+            "id": 115
+        },
+        {
+            "name": "Simulated Annealing",
+            "definition": "Simulated annealing is an optimization technique inspired by the annealing process in metallurgy. It is used to find a global minimum of a cost function by probabilistically allowing worse solutions in the hope of escaping local minima.",
+            "url": "https://en.wikipedia.org/wiki/Simulated_annealing",
+            "id": 116
+        },
+        {
+            "name": "Particle Swarm",
+            "definition": "Particle swarm optimization (PSO) is a computational method inspired by the social behavior of birds and fish. It is used to optimize problems by iteratively improving candidate solutions with respect to a given measure of quality.",
+            "url": "https://en.wikipedia.org/wiki/Particle_swarm_optimization",
+            "id": 117
+        },
+        {
+            "name": "Mixture of Experts (MoE)",
+            "definition": "Mixture of Experts (MoE) is a machine learning approach that uses a combination of specialized models (experts) and a gating mechanism to decide which expert to use for a specific input.",
+            "url": "https://en.wikipedia.org/wiki/Mixture_of_experts",
+            "id": 118
+        },
+        {
+            "name": "DBRX",
+            "definition": "DBRX is a proprietary or specialized term, often referring to a deep-learning-based exploratory framework for specific domains or datasets. Contextual usage determines its exact application.",
+            "url": "https://en.wikipedia.org/wiki/DBRX",
+            "id": 119
+        },
+        {
+            "name": "Bayesian Inference",
+            "definition": "Bayesian inference is a method of statistical inference that updates the probability of a hypothesis as more evidence or information becomes available, based on Bayes' theorem.",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_inference",
+            "id": 120
+        },
+        {
+            "name": "Monte Carlo Methods",
+            "definition": "Monte Carlo methods are computational algorithms that rely on repeated random sampling to obtain numerical results. They are widely used in optimization, numerical integration, and probabilistic modeling.",
+            "url": "https://en.wikipedia.org/wiki/Monte_Carlo_method",
+            "id": 121
+        },
+        {
+            "name": "Chain of Thought",
+            "definition": "Chain of Thought is a reasoning framework in machine learning that involves generating intermediate reasoning steps to solve complex problems, improving the model's ability to reason systematically.",
+            "url": "https://arxiv.org/abs/2201.11903",
+            "id": 122
+        },
+        {
+            "name": "Batch, Stochastic, and Mini-batch Gradient Descent",
+            "definition": "Batch, stochastic, and mini-batch gradient descent are optimization methods for training machine learning models. They differ in the amount of data used to compute gradients at each step, affecting speed and convergence.",
+            "url": "https://machinelearningmastery.com/gentle-introduction-mini-batch-gradient-descent-configure-batch-size/",
+            "id": 123
+        },
+        {
+            "name": "Stochastic Methods",
+            "definition": "Stochastic methods use randomness as part of their logic to solve problems or optimize functions. They are commonly employed in optimization algorithms and machine learning models.",
+            "url": "https://en.wikipedia.org/wiki/Stochastic_process",
+            "id": 124
+        },
+        {
+            "name": "Genetic Algorithms",
+            "definition": "Genetic algorithms are search heuristics inspired by natural selection principles. They evolve solutions to optimization problems through operations like mutation, crossover, and selection.",
+            "url": "https://en.wikipedia.org/wiki/Genetic_algorithm",
+            "id": 125
+        },
+        {
+            "name": "Adam",
+            "definition": "Adam is an optimization algorithm for training deep learning models. It combines the benefits of Adagrad and RMSprop by using adaptive learning rates and momentum.",
+            "url": "https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/",
+            "id": 126
+        },
+        {
+            "name": "RMSprop",
+            "definition": "RMSprop is an optimization algorithm designed to adapt learning rates for each parameter. It is particularly effective for training deep neural networks and tackling vanishing or exploding gradient issues.",
+            "url": "https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a",
+            "id": 127
+        },
+        {
+            "name": "Convex Optimization",
+            "definition": "Convex optimization is a subfield of optimization focused on problems where the objective function is convex and constraints define a convex set. Solutions can be efficiently found using mathematical techniques.",
+            "url": "https://en.wikipedia.org/wiki/Convex_optimization",
+            "id": 128
         }
+
         # {
         #     "name": "",
         #     "definition": "",
