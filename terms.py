@@ -689,7 +689,7 @@ def return_word():
             "definition": "Exploding gradients is a problem in training deep neural networks where gradients become very large, causing instability or failure during optimization. Techniques like gradient clipping are used to mitigate this issue.",
             "url": "https://machinelearningmastery.com/exploding-gradients-in-neural-networks/",
             "id": 111
-        }
+        },
         {
             "name": "Machine Learning Control",
             "definition": "Machine learning control involves the use of machine learning algorithms to design and optimize control systems for dynamic processes. It is often applied in robotics, autonomous systems, and industrial automation.",
