@@ -831,7 +831,7 @@ def return_word():
         {
             "name": "Contamination Parameter",
             "definition": "The contamination parameter in anomaly detection specifies the expected proportion of outliers in the dataset, impacting model sensitivity in methods like LOF and Isolation Forest.",
-            "url": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html",
+            "url": "https://campus.datacamp.com/courses/anomaly-detection-in-python/isolation-forests-with-pyod?ex=6",
             "id": 135
         },
         {
