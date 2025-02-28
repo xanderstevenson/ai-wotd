@@ -830,6 +830,72 @@ def return_word():
             "definition": "Isolation Forest is an unsupervised anomaly detection algorithm that isolates anomalies through recursive partitioning, making it efficient for large datasets.",
             "url": "https://en.wikipedia.org/wiki/Isolation_forest",
             "id": 136
+        },
+        {
+            "name": "Decision Stump",
+            "definition": "A decision stump is a simple decision tree with only one split, often used as a weak learner in ensemble methods like AdaBoost.",
+            "url": "https://en.wikipedia.org/wiki/Decision_stump",
+            "id": 137
+        },
+        {
+            "name": "Meta-learning",
+            "definition": "Meta-learning, or 'learning to learn,' is a machine learning approach where models improve their learning process based on experience from multiple tasks.",
+            "url": "https://en.wikipedia.org/wiki/Meta-learning_(computer_science)",
+            "id": 138
+        },
+        {
+            "name": "Stacking",
+            "definition": "Stacking is an ensemble learning technique that combines multiple base models using a meta-learner to improve predictive performance.",
+            "url": "https://en.wikipedia.org/wiki/Ensemble_learning#Stacking",
+            "id": 139
+        },
+        {
+            "name": "LightGBM",
+            "definition": "LightGBM is a gradient boosting framework optimized for speed and efficiency, using histogram-based learning to handle large datasets with reduced memory usage.",
+            "url": "https://lightgbm.readthedocs.io/en/latest/",
+            "id": 140
+        },
+        {
+            "name": "Shrinkage",
+            "definition": "Shrinkage is a regularization technique used in gradient boosting to reduce the impact of individual trees, improving generalization and preventing overfitting.",
+            "url": "https://en.wikipedia.org/wiki/Shrinkage_(statistics)",
+            "id": 141
+        },
+        {
+            "name": "XGBoost",
+            "definition": "XGBoost is an optimized gradient boosting framework designed for speed and performance, widely used in machine learning competitions and real-world applications.",
+            "url": "https://en.wikipedia.org/wiki/XGBoost",
+            "id": 142
+        },
+        {
+            "name": "Weak Learners",
+            "definition": "Weak learners, such as decision stumps, are models that perform slightly better than random guessing and are often combined in boosting algorithms to create strong classifiers.",
+            "url": "https://en.wikipedia.org/wiki/Weak_learners",
+            "id": 143
+        },
+        {
+            "name": "Residual",
+            "definition": "In machine learning, a residual is the difference between the observed value and the predicted value, playing a crucial role in gradient boosting and regression models.",
+            "url": "https://en.wikipedia.org/wiki/Errors_and_residuals",
+            "id": 144
+        },
+        {
+            "name": "Gradient Boosting Machines (GBMs)",
+            "definition": "Gradient Boosting Machines (GBMs) are ensemble learning methods that iteratively train weak learners to minimize errors by focusing on the residuals of previous models.",
+            "url": "https://en.wikipedia.org/wiki/Gradient_boosting",
+            "id": 145
+        },
+        {
+            "name": "Inertia",
+            "definition": "Inertia is a measure of clustering quality in k-means, representing the sum of squared distances of samples to their nearest cluster center.",
+            "url": "https://scikit-learn.org/stable/modules/clustering.html#k-means",
+            "id": 146
+        },
+        {
+            "name": "Silhouette Score",
+            "definition": "The silhouette score evaluates clustering performance by measuring how similar a data point is to its own cluster compared to other clusters, with values ranging from -1 to 1.",
+            "url": "https://en.wikipedia.org/wiki/Silhouette_(clustering)",
+            "id": 147
         }
 
         # {
