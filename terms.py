@@ -905,6 +905,72 @@ def return_word():
             "definition": "The silhouette score evaluates clustering performance by measuring how similar a data point is to its own cluster compared to other clusters, with values ranging from -1 to 1.",
             "url": "https://en.wikipedia.org/wiki/Silhouette_(clustering)",
             "id": 147
+        },
+        {
+            "name": "Dendrogram",
+            "definition": "A dendrogram is a tree-like diagram that illustrates the arrangement of clusters formed by hierarchical clustering algorithms, depicting the order and distance at which data points are merged.",
+            "url": "https://www.geeksforgeeks.org/hierarchical-clustering/",
+            "id": 148
+        },
+        {
+            "name": "Auto-regressive Algorithm",
+            "definition": "An auto-regressive algorithm is a type of time series model where future values are regressed on their own previous values, capturing temporal dependencies to forecast future points.",
+            "url": "https://aws.amazon.com/what-is/autoregressive-models/",
+            "id": 149
+        },
+        {
+            "name": "MAE vs. MAPE",
+            "definition": "Mean Absolute Error (MAE) measures the average magnitude of errors in a set of predictions, without considering their direction, while Mean Absolute Percentage Error (MAPE) expresses this error as a percentage of the actual values, providing a normalized measure of prediction accuracy.",
+            "url": "https://sefidian.com/2022/08/18/a-guide-on-regression-error-metrics-with-python-code/",
+            "id": 150
+        },
+        {
+            "name": "Convergence",
+            "definition": "In machine learning, convergence refers to the process where an algorithm iteratively adjusts its parameters and approaches a stable state or solution, typically minimizing a loss function over time.",
+            "url": "https://mljourney.com/what-is-convergence-in-machine-learning/",
+            "id": 151
+        },
+        {
+            "name": "t-SNE",
+            "definition": "t-Distributed Stochastic Neighbor Embedding (t-SNE) is a non-linear dimensionality reduction technique used for visualizing high-dimensional data by mapping it into two or three dimensions, preserving local structures and revealing patterns in the data.",
+            "url": "https://www.geeksforgeeks.org/ml-t-distributed-stochastic-neighbor-embedding-t-sne-algorithm/",
+            "id": 152
+        },
+        {
+            "name": "Chain Rule",
+            "definition": "The chain rule is a fundamental property of probability that allows the decomposition of joint probabilities into conditional probabilities. The chain rule allows us to find the derivative of composite functions, which frequently arise in machine learning models due to their layered architecture. These models often involve multiple nested functions, and the chain rule helps us compute gradients efficiently for optimization algorithms like gradient descent.",
+            "url": "https://www.geeksforgeeks.org/chain-rule-derivative-in-machine-learning/",
+            "id": 153
+        },
+        {
+            "name": "FP-Growth",
+            "definition": "FP-Growth is a frequent pattern mining algorithm that efficiently discovers itemsets without candidate generation. An implementation of FP-Growth can be found in MLxtend, a Python library providing various extensions for machine learning.",
+            "url": "https://rasbt.github.io/mlxtend/user_guide/frequent_patterns/fpgrowth/",
+            "id": 154
+        },
+        {
+            "name": "Bag of Words",
+            "definition": "The Bag of Words (BoW) model is a representation used in natural language processing where text data is converted into numerical feature vectors by counting word occurrences, disregarding grammar and word order.",
+            "url": "https://machinelearningmastery.com/gentle-introduction-bag-words-model/",
+            "id": 155
+        },
+        {
+            "name": "train_test_split()",
+            "definition": "train_test_split() is a function in Scikit-learn that splits a dataset into training and testing subsets, commonly used in machine learning to evaluate model performance by training on one portion and validating on another.",
+            "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html",
+            "id": 156
+        },
+        {
+            "name": "Cross Validation",
+            "definition": "Cross-validation is a statistical technique used to assess the generalization ability of machine learning models by splitting data into multiple training and validation sets, helping to prevent overfitting.",
+            "url": "https://www.statology.org/complete-guide-cross-validation/",
+            "id": 157
+        },
+        {
+            "name": "Linear Support Vector Classification",
+            "definition": "Linear Support Vector Classification (LinearSVC) is a machine learning algorithm that finds the optimal hyperplane to separate data points in a linear manner, often used for classification tasks with high-dimensional datasets.",
+            "url": "https://www.datatechnotes.com/2020/07/classification-example-with-linearsvm-in-python.html",
+            "id": 158
         }
         # {
         #     "name": "",
