@@ -962,7 +962,134 @@ def return_word():
             "definition": "Linear Support Vector Classification (LinearSVC) is a machine learning algorithm that finds the optimal hyperplane to separate data points in a linear manner, often used for classification tasks with high-dimensional datasets.",
             "url": "https://www.datatechnotes.com/2020/07/classification-example-with-linearsvm-in-python.html",
             "id": 158
+        },
+        {
+            "name": "Downsampling vs. Upsampling",
+            "definition": "Downsampling and upsampling are techniques used to handle imbalanced datasets. Downsampling involves reducing the number of instances in the majority class, while upsampling involves increasing the number of instances in the minority class to balance the dataset.",
+            "url": "https://machinelearningmastery.com/random-oversampling-and-undersampling-for-imbalanced-classification/",
+            "id": 159
+        },
+        {
+            "name": "The ‘Zero Frequency’ Problem",
+            "definition": "The 'zero frequency' problem occurs in text classification when a word appears in the test set but not in the training set, leading to a zero probability estimate for that word. This is commonly addressed by smoothing techniques like Laplace smoothing.",
+            "url": "https://www.atoti.io/articles/how-to-solve-the-zero-frequency-problem-in-naive-bayes/",
+            "id": 160
+        },
+        {
+            "name": "Hard-voting vs. Soft-voting",
+            "definition": "Hard-voting involves classifying based on the majority of predictions made by multiple models, while soft-voting uses the predicted probabilities, averaging them to make a final decision. Soft-voting generally performs better when models provide well-calibrated probabilities.",
+            "url": "https://vitalflux.com/hard-vs-soft-voting-classifier-python-example/",
+            "id": 161
+        },
+        {
+            "name": "Homogeneous vs. Heterogeneous Ensemble Model",
+            "definition": "A homogeneous ensemble model consists of multiple instances of the same type of model (e.g., multiple decision trees), while a heterogeneous ensemble model combines different types of models (e.g., decision trees, logistic regression, etc.) to improve performance.",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/2013/312067?msockid=1058fb0a6ff96e591ff4eeb96e9b6fda",
+            "id": 162
+        },
+        {
+            "name": "LightGBM",
+            "definition": "LightGBM (Light Gradient Boosting Machine) is an open-source, distributed, high-performance gradient boosting framework that is particularly efficient in terms of both speed and memory usage, designed for large datasets.",
+            "url": "https://lightgbm.readthedocs.io/en/latest/",
+            "id": 163
+        },
+        {
+            "name": "Model Distillation",
+            "definition": "Model distillation is a technique where a smaller, simpler model is trained to mimic the behavior of a larger, more complex model. This is useful for deploying models on resource-constrained devices without compromising performance significantly.",
+            "url": "https://arxiv.org/abs/1503.02531",
+            "id": 164
+        },
+        {
+            "name": "Stacking",
+            "definition": "Stacking is an ensemble learning technique where multiple models (often of different types) are trained to predict the same target, and a meta-model is used to combine their predictions to make a final decision.",
+            "url": "https://www.scaler.com/topics/machine-learning/stacking-in-machine-learning/",
+            "id": 165
+        },
+        {
+            "name": "K-means++",
+            "definition": "K-means++ is an enhancement of the standard K-means algorithm that improves the initialization of cluster centroids. It selects initial centroids in a way that spreads them out, which helps avoid poor clustering results caused by random initialization.",
+            "url": "https://en.wikipedia.org/wiki/K-means%2B%2B",
+            "id": 166
+        },
+        {
+            "name": "Chi-squared tests",
+            "definition": "The Chi-squared test is a statistical method used to determine if there is a significant association between categorical variables, comparing observed frequencies with expected frequencies.",
+            "url": "https://www.statisticshowto.com/probability-and-statistics/chi-square/",
+            "id": 167
+        },
+        {
+            "name": "ANOVA, ANCOVA, MANOVA, and MANCOVA",
+            "definition": "ANOVA (Analysis of Variance) tests for differences between group means, ANCOVA (Analysis of Covariance) combines ANOVA with regression to control for continuous variables. MANOVA (Multivariate Analysis of Variance) extends ANOVA to multiple dependent variables, and MANCOVA adds control for continuous covariates in MANOVA.",
+            "url": "https://www.statsmakemecry.com/smmctheblog/stats-soup-anova-ancova-manova-mancova",
+            "id": 168
+        },
+        {
+            "name": "Simple Linear Regression vs. Multiple Linear Regression",
+            "definition": "Simple linear regression models the relationship between a dependent variable and one independent variable, while multiple linear regression models the relationship between a dependent variable and multiple independent variables.",
+            "url": "https://www.investopedia.com/ask/answers/060315/what-difference-between-linear-regression-and-multiple-regression.asp",
+            "id": 169
+        },
+        {
+            "name": "Ordinary Least Squares (OLS)",
+            "definition": "Ordinary Least Squares (OLS) is a method of estimating the parameters of a linear regression model by minimizing the sum of the squared differences between the observed and predicted values.",
+            "url": "https://en.wikipedia.org/wiki/Ordinary_least_squares",
+            "id": 170
+        },
+        {
+            "name": "Logistic Regression vs. Linear Regression",
+            "definition": "Linear regression is used to predict continuous values, while logistic regression is used to predict categorical outcomes, specifically binary outcomes by modeling the probability of an event occurring.",
+            "url": "https://www.geeksforgeeks.org/ml-linear-regression-vs-logistic-regression/",
+            "id": 171
+        },
+        {
+            "name": "R-squared and Adjusted R-squared",
+            "definition": "R-squared (coefficient of determination) measures how well the independent variables explain the variance in the dependent variable. Adjusted R-squared adjusts R-squared for the number of predictors in the model, providing a more accurate measure when comparing models with different numbers of predictors.",
+            "url": "https://www.datacamp.com/tutorial/adjusted-r-squared",
+            "id": 172
+        },
+        {
+            "name": "Multiple Linear Regression",
+            "definition": "Multiple linear regression is an extension of simple linear regression where multiple independent variables are used to predict a dependent variable.",
+            "url": "https://www.scribbr.com/statistics/multiple-linear-regression/",
+            "id": 173
+        },
+        {
+            "name": "Forward Selection",
+            "definition": "Forward selection is a feature selection technique that starts with no variables in the model and adds them one by one based on the statistical significance of the variables in improving model performance.",
+            "url": "https://www.analyticsvidhya.com/blog/2021/04/forward-feature-selection-and-its-implementation/",
+            "id": 174
+        },
+        {
+            "name": "Regularization: Lasso, Ridge, and Elastic Net Regression",
+            "definition": "Regularization techniques like Lasso, Ridge, and Elastic Net are used in regression models to prevent overfitting by adding penalties to the model's complexity. Lasso uses L1 regularization, Ridge uses L2 regularization, and Elastic Net combines both.",
+            "url": "https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/",
+            "id": 175
+        },
+        {
+            "name": "Backward Elimination",
+            "definition": "Backward elimination is a feature selection method that starts with all predictors in the model and removes the least significant variables one at a time until a specified criterion is met.",
+            "url": "https://towardsdatascience.com/backward-elimination-for-feature-selection-in-machine-learning-c6a3a8f8cef4/",
+            "id": 176
+        },
+        {
+            "name": "Extra-sum-of-squares F-test",
+            "definition": "The extra-sum-of-squares F-test is used to compare two nested models by determining if adding additional predictors to the model significantly improves the fit to the data.",
+            "url": "https://www.graphpad.com/guides/prism/latest/curve-fitting/reg_interpreting_comparison_of_mod_2.htm",
+            "id": 177
+        },
+        {
+            "name": "Elbow Method",
+            "definition": "The elbow method is a technique used in clustering to determine the optimal number of clusters by plotting the sum of squared distances (within-cluster variance) and looking for the 'elbow' point where the rate of decrease slows down.",
+            "url": "https://en.wikipedia.org/wiki/Elbow_method_(clustering)",
+            "id": 178
+        },
+        {
+            "name": "Hierarchical Clustering",
+            "definition": "Hierarchical clustering is a clustering technique that builds a hierarchy of clusters by either merging smaller clusters (agglomerative) or splitting larger clusters (divisive). It is useful when the number of clusters is not pre-specified.",
+            "url": "https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering",
+            "id": 179
         }
+
 
         # {
         #     "name": "",
