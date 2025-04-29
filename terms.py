@@ -1097,7 +1097,182 @@ def return_word():
             "definition": "Hierarchical clustering is a clustering technique that builds a hierarchy of clusters by either merging smaller clusters (agglomerative) or splitting larger clusters (divisive). It is useful when the number of clusters is not pre-specified.",
             "url": "https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering",
             "id": 179
+        },
+        {
+            "name": "Permutation Language Modeling",
+            "definition": "Permutation language modeling is a training objective used in models like XLNet, where the model predicts tokens based on all possible permutations of the input sequence, capturing bidirectional context without masking.",
+            "url": "https://chanys.github.io/plm/",
+            "id": 180
+        },
+        {
+            "name": "Autoregressive (AR) Model",
+            "definition": "An autoregressive model predicts future values in a time series as a linear function of past observations and a stochastic term, commonly used in econometrics and signal processing.",
+            "url": "https://en.wikipedia.org/wiki/Autoregressive_model",
+            "id": 181
+        },
+        {
+            "name": "Transformers vs. RNNs for NLP",
+            "definition": "Transformers utilize self-attention mechanisms to process entire sequences simultaneously, enabling better parallelization and capturing long-range dependencies, whereas RNNs process sequences sequentially, which can be less efficient and struggle with long-term dependencies.",
+            "url": "https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452/",
+            "id": 182
+        },
+        {
+            "name": "KVM (Key-Value Memory)",
+            "definition": "Key-Value Memory networks store information as key-value pairs, allowing models to retrieve relevant data by matching input queries with stored keys, enhancing tasks like question answering and language modeling.",
+            "url": "https://arxiv.org/abs/1606.03126",
+            "id": 183
+        },
+        {
+            "name": "RoPE vs. Additive Positional Encoding",
+            "definition": "RoPE (Rotary Positional Encoding) encodes positional information through rotations in embedding space, preserving relative positions, while additive positional encoding adds fixed or learned position vectors to token embeddings.",
+            "url": "https://arxiv.org/abs/2104.09864",
+            "id": 184
+        },
+        {
+            "name": "Self-Attention",
+            "definition": "Self-attention allows models to weigh the importance of different words in an input sequence when encoding a particular word, enabling the capture of contextual relationships within the sequence.",
+            "url": "https://armanasq.github.io/nlp/self-attention/",
+            "id": 185
+        },
+        {
+            "name": "Negative Sampling",
+            "definition": "Negative sampling is a technique used in training models like word2vec, where the model learns to distinguish target word-context pairs from randomly sampled negative pairs, improving training efficiency.",
+            "url": "https://www.youtube.com/watch?v=4PXILCmVK4Q",
+            "id": 186
+        },
+        {
+            "name": "Neural Machine Translation (NMT)",
+            "definition": "Neural Machine Translation uses neural networks to model the entire translation process end-to-end, typically employing encoder-decoder architectures with attention mechanisms to translate text from one language to another.",
+            "url": "https://en.wikipedia.org/wiki/Neural_machine_translation",
+            "id": 187
+        },
+        {
+            "name": "Vision and Language Pre-training (VLP)",
+            "definition": "VLP involves training models on combined visual and textual data to learn representations that can be fine-tuned for tasks like image captioning, visual question answering, and multimodal retrieval.",
+            "url": "https://arxiv.org/abs/2202.09061",
+            "id": 188
+        },
+        {
+            "name": "Opinion Mining",
+            "definition": "Opinion mining, or sentiment analysis, is the process of using natural language processing to identify and extract subjective information from text, such as opinions, sentiments, and emotions.",
+            "url": "https://en.wikipedia.org/wiki/Sentiment_analysis",
+            "id": 189
+        },
+        {
+            "name": "Meta-Learning",
+            "definition": "Meta-learning, or 'learning to learn', involves designing models that can adapt quickly to new tasks with minimal data by leveraging knowledge acquired from previous tasks.",
+            "url": "https://arxiv.org/abs/2004.05439",
+            "id": 190
+        },
+        {
+            "name": "Multimodal Models",
+            "definition": "Multimodal models are designed to process and integrate information from multiple modalities, such as text, images, and audio, enabling them to perform tasks that require understanding across different types of data.",
+            "url": "https://en.wikipedia.org/wiki/Multimodal_learning",
+            "id": 191
+        },
+        {
+            "name": "Attention Mechanisms",
+            "definition": "Attention mechanisms allow models to focus on specific parts of the input sequence when generating each part of the output, improving performance in tasks like translation and summarization.",
+            "url": "https://www.geeksforgeeks.org/types-of-attention-mechanism/",
+            "id": 192
+        },
+        {
+            "name": "Sequence-to-Sequence Models",
+            "definition": "Sequence-to-sequence models map input sequences to output sequences, commonly using encoder-decoder architectures, and are widely used in tasks like machine translation and text summarization.",
+            "url": "https://arxiv.org/abs/1409.3215",
+            "id": 193
+        },
+        {
+            "name": "Recursive Neural Tensor Networks (RNTNs)",
+            "definition": "RNTNs are neural networks that apply tensor-based transformations recursively over hierarchical structures like parse trees, capturing compositional semantics in natural language processing tasks.",
+            "url": "https://nlp.stanford.edu/~socherr/EMNLP2013_RNTN.pdf",
+            "id": 194
+        },
+        {
+            "name": "Fine-Tuning",
+            "definition": "Fine-tuning involves taking a pre-trained model and adapting it to a specific task by continuing the training process on a task-specific dataset, allowing for efficient learning with limited data.",
+            "url": "https://huggingface.co/docs/transformers/training",
+            "id": 195
+        },
+        {
+            "name": "Foundation Model",
+            "definition": "A foundation model is a large-scale model trained on broad data that can be adapted to a wide range of downstream tasks, serving as a base for various applications in AI.",
+            "url": "https://en.wikipedia.org/wiki/Foundation_model",
+            "id": 196
+        },
+        {
+            "name": "Temperature",
+            "definition": "In AI, temperature is a parameter that controls the randomness of predictions in models like language generators; higher values lead to more diverse outputs, while lower values make outputs more deterministic.",
+            "url": "https://www.vellum.ai/llm-parameters/temperature",
+            "id": 197
+        },
+        {
+            "name": "Context Limit",
+            "definition": "Context limit refers to the maximum number of tokens a model can consider in its input, affecting its ability to understand and generate text based on long contexts.",
+            "url": "https://relevanceai.com/blog/how-to-overcome-context-limits-in-large-language-models",
+            "id": 198
+        },
+        {
+            "name": "Association Learning",
+            "definition": "Association learning is a machine learning approach where the model discovers relationships between variables in data, often used in market basket analysis and recommendation systems.",
+            "url": "https://en.wikipedia.org/wiki/Association_rule_learning",
+            "id": 199
+        },
+        {
+            "name": "PCA vs. LDA vs. SVD",
+            "definition": "PCA, LDA, and SVD are dimensionality reduction techniques: PCA identifies directions of maximum variance, LDA finds linear combinations that best separate classes, and SVD decomposes matrices into singular vectors and values.",
+            "url": "https://sebastianraschka.com/Articles/2014_pca_step_by_step.html",
+            "id": 200
+        },
+        {
+            "name": "DBSCAN",
+            "definition": "DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a clustering algorithm that groups together points that are closely packed and marks points in low-density regions as outliers.",
+            "url": "https://scikit-learn.org/stable/modules/clustering.html#dbscan",
+            "id": 201
+        },
+        {
+            "name": "Affinity Propagation",
+            "definition": "Affinity Propagation is a clustering algorithm that identifies exemplars among data points and forms clusters by sending messages between points, without requiring the number of clusters to be specified beforehand.",
+            "url": "https://scikit-learn.org/stable/modules/clustering.html#affinity-propagation",
+            "id": 202
+        },
+        {
+            "name": "ARIMA vs. SARIMA",
+            "definition": "ARIMA models capture autocorrelations in time series data, while SARIMA extends ARIMA by incorporating seasonal components, making it suitable for data with seasonal patterns.",
+            "url": "https://www.statsmodels.org/stable/examples/notebooks/generated/statespace_sarimax_stata.html",
+            "id": 203
+        },
+        {
+            "name": "AIC and BIC",
+            "definition": "AIC (Akaike Information Criterion) and BIC (Bayesian Information Criterion) are metrics used to compare statistical models, balancing model fit and complexity to prevent overfitting.",
+            "url": "https://en.wikipedia.org/wiki/Akaike_information_criterion",
+            "id": 204
+        },
+        {
+            "name": "White Noise",
+            "definition": "White noise is a random signal with a constant power spectral density, meaning it has equal intensity at different frequencies, often used as a model for random disturbances in time series analysis.",
+            "url": "https://en.wikipedia.org/wiki/White_noise",
+            "id": 205
+        },
+        {
+            "name": "ReLU, PReLU, ELU, GELU",
+            "definition": "ReLU, PReLU, ELU, and GELU are activation functions in neural networks that introduce non-linearity; each has different properties affecting model performance and training dynamics.",
+            "url": "https://ml-cheatsheet.readthedocs.io/en/latest/activation_functions.html",
+            "id": 206
+        },
+        {
+            "name": "Support Vector Classification",
+            "definition": "Support Vector Classification is a supervised learning model that finds the optimal hyperplane separating data into classes, maximizing the margin between different class boundaries.",
+            "url": "https://scikit-learn.org/stable/modules/svm.html",
+            "id": 207
+        },
+            {
+            "name": "Dark Knowledge",
+            "definition": "Dark knowledge refers to the information captured by a neural network about the relationships between classes, as revealed by the soft targets (probability distributions) produced during training. This nuanced information can be used to train smaller models to mimic larger ones, a process known as knowledge distillation.",
+            "url": "https://arxiv.org/abs/1503.02531",
+            "id": 208
         }
+
         # {
         #     "name": "",
         #     "definition": "",
