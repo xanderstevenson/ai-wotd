@@ -1402,15 +1402,6 @@ def return_word():
             "id": 231
         }
 
-import random
-from tinydb import TinyDB, Query
-
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 9
-        # },
     ]
 
     # Select a candidate word from word list
