@@ -1266,11 +1266,149 @@ def return_word():
             "url": "https://scikit-learn.org/stable/modules/svm.html",
             "id": 207
         },
-            {
+        {
             "name": "Dark Knowledge",
             "definition": "Dark knowledge refers to the information captured by a neural network about the relationships between classes, as revealed by the soft targets (probability distributions) produced during training. This nuanced information can be used to train smaller models to mimic larger ones, a process known as knowledge distillation.",
             "url": "https://arxiv.org/abs/1503.02531",
             "id": 208
+        },
+        {
+            "name": "ReAct prompting",
+            "definition": "ReAct prompting is a technique combining reasoning and acting steps in language model prompts to improve multi-step problem solving and decision making.",
+            "url": "https://www.promptingguide.ai/techniques/react",
+            "id": 209
+        },
+        {
+            "name": "Chain-of-thought (CoT) prompting",
+            "definition": "Chain-of-thought prompting involves guiding language models to generate intermediate reasoning steps before producing a final answer, enhancing their ability to solve complex tasks.",
+            "url": "https://arxiv.org/abs/2201.11903",
+            "id": 210
+        },
+        {
+            "name": "Negative Sampling",
+            "definition": "Negative sampling is a technique used in training models, especially word embeddings, where a subset of negative examples is sampled to efficiently approximate a loss function.",
+            "url": "https://arxiv.org/html/2402.17238v1",
+            "id": 211
+        },
+        {
+            "name": "Neural Machine Translation (NMT)",
+            "definition": "Neural Machine Translation is an end-to-end learning approach for translating text from one language to another using neural networks.",
+            "url": "https://en.wikipedia.org/wiki/Neural_machine_translation",
+            "id": 212
+        },
+        {
+            "name": "ElasticNet",
+            "definition": "ElasticNet is a regularization technique that linearly combines L1 and L2 penalties to improve model prediction accuracy and feature selection.",
+            "url": "https://scikit-learn.org/stable/modules/linear_model.html#elastic-net",
+            "id": 213
+        },
+        {
+            "name": "L1 (Lasso) and L2 (Ridge) regularization",
+            "definition": "L1 regularization adds a penalty equal to the absolute value of coefficients (Lasso), promoting sparsity, while L2 regularization adds a penalty equal to the square of coefficients (Ridge), promoting smaller but nonzero coefficients.",
+            "url": "https://en.wikipedia.org/wiki/Regularization_(mathematics)#L1_and_L2_regularization",
+            "id": 214
+        },
+        {
+            "name": "Huber Loss",
+            "definition": "Huber loss is a robust loss function that is quadratic for small errors and linear for large errors, combining advantages of mean squared error and mean absolute error.",
+            "url": "https://en.wikipedia.org/wiki/Huber_loss",
+            "id": 215
+        },
+        {
+            "name": "Cover’s theorem",
+            "definition": "Cover’s theorem states that a complex pattern classification problem is more likely to be linearly separable in a higher-dimensional space.",
+            "url": "https://en.wikipedia.org/wiki/Cover%27s_theorem",
+            "id": 216
+        },
+        {
+            "name": "Cross-entropy function",
+            "definition": "Cross-entropy function measures the difference between two probability distributions, commonly used as a loss function for classification tasks.",
+            "url": "https://en.wikipedia.org/wiki/Cross_entropy",
+            "id": 217
+        },
+        {
+            "name": "The dying ReLU problem",
+            "definition": "The dying ReLU problem occurs when ReLU neurons output zero for all inputs during training, effectively becoming inactive and hindering learning.",
+            "url": "https://towardsdatascience.com/the-dying-relu-problem-clearly-explained-42d0c54e0d24/",
+            "id": 218
+        },
+        {
+            "name": "Fully Connected Neural Network",
+            "definition": "A fully connected neural network is a network architecture where each neuron in one layer is connected to every neuron in the next layer.",
+            "url": "https://deeplearningmath.org/general-fully-connected-neural-networks.html",
+            "id": 219
+        },
+        {
+            "name": "Sequential model-based optimization (SMBO)",
+            "definition": "SMBO is an optimization strategy that iteratively builds a surrogate model to guide the search for the best hyperparameters or configurations.",
+            "url": "https://arxiv.org/abs/2003.13826",
+            "id": 220
+        },
+        {
+            "name": "Evolutionary Optimization",
+            "definition": "Evolutionary optimization uses mechanisms inspired by biological evolution, such as mutation and selection, to iteratively improve candidate solutions.",
+            "url": "https://arxiv.org/abs/2403.02985",
+            "id": 221
+        },
+        {
+            "name": "Search space",
+            "definition": "Search space is the set of all possible candidate solutions or hyperparameter configurations considered during an optimization or learning process.",
+            "url": "https://www.sciencedirect.com/topics/engineering/search-space",
+            "id": 222
+        },
+        {
+            "name": "AI workload mobility",
+            "definition": "AI workload mobility refers to the ability to transfer AI tasks and models seamlessly across different computing environments or hardware platforms.",
+            "url": "https://www.tierpoint.com/blog/ai-workloads/",
+            "id": 223
+        },
+        {
+            "name": "Gaussian Mixture Models (GMM)",
+            "definition": "Gaussian Mixture Models are probabilistic models that represent a distribution as a mixture of multiple Gaussian components, often used for clustering.",
+            "url": "https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model",
+            "id": 224
+        },
+        {
+            "name": "K-Medoids",
+            "definition": "K-Medoids is a clustering algorithm similar to K-Means but uses actual data points as cluster centers, making it more robust to noise and outliers.",
+            "url": "https://en.wikipedia.org/wiki/K-medoids",
+            "id": 225
+        },
+        {
+            "name": "Agglomerative Clustering vs. Divisive Clustering",
+            "definition": "Agglomerative clustering builds clusters by iteratively merging data points, while divisive clustering splits data into clusters from the top down.",
+            "url": "https://en.wikipedia.org/wiki/Hierarchical_clustering#Agglomerative_clustering",
+            "id": 226
+        },
+        {
+            "name": "Quantization",
+            "definition": "Quantization is the process of mapping input values from a large set to output values in a smaller set, often used to reduce model size and improve efficiency.",
+            "url": "https://en.wikipedia.org/wiki/Quantization_(signal_processing)",
+            "id": 227
+        },
+        {
+            "name": "Pseudo-label",
+            "definition": "Pseudo-labeling is a semi-supervised learning technique where a model assigns labels to unlabeled data based on its predictions to augment training.",
+            "url": "https://arxiv.org/abs/1908.02983",
+            "id": 228
+        },
+        {
+            "name": "Centroid",
+            "definition": "A centroid is the center point of a cluster, calculated as the mean of all points in that cluster.",
+            "url": "https://en.wikipedia.org/wiki/Centroid",
+            "id": 229
+        },
+        {
+            "name": "Affinity",
+            "definition": "Affinity measures the similarity or closeness between data points or clusters, used in clustering algorithms.",
+            "url": "https://en.wikipedia.org/wiki/Clustering_algorithms#Affinity_propagation",
+            "id": 230
+        },
+        {
+            "name": "Linkage: Single, Complete, Average, and Ward",
+            "definition": "Linkage methods define how distances between clusters are computed in hierarchical clustering: single linkage uses minimum distance, complete uses maximum, average uses mean distances, and Ward minimizes variance within clusters.",
+            "url": "https://www.geeksforgeeks.org/machine-learning/ml-types-of-linkages-in-clustering/",
+            "id": 231
         }
 
         # {
