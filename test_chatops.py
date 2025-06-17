@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
     # Bot Testing room
     teams_room = (
-        "Y2lzY29zcGFyazovL3VzL1JPT00vMGI1OGQyODAtNWQ4Ny0xMWVhLTk3YzMtNjMxZThlNjhkY2I1"
+        "Y2lzY29zcGFyazovL3VzL1JPT00vMTM4YTljMzAtNGI4NS0xMWYwLTk4NDEtZjUwZGUyZThiZjli"
     )
 
     the_message = ""
