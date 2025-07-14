@@ -1409,15 +1409,145 @@ def return_word():
             "definition": "Linkage methods define how distances between clusters are computed in hierarchical clustering: single linkage uses minimum distance, complete uses maximum, average uses mean distances, and Ward minimizes variance within clusters.",
             "url": "https://www.geeksforgeeks.org/machine-learning/ml-types-of-linkages-in-clustering/",
             "id": 231
+        },
+        {
+            "name": "Hierarchical Navigable Small World (HNSW)",
+            "definition": "HNSW is an approximate nearest neighbor search algorithm that builds a multi-layered graph to enable efficient and scalable similarity searches.",
+            "url": "https://arxiv.org/abs/1603.09320",
+            "id": 232
+        },
+        {
+            "name": "NSW (Navigable Small World)",
+            "definition": "NSW is a graph-based structure used for fast approximate nearest neighbor searches, leveraging small-world properties to navigate efficiently.",
+            "url": "https://arxiv.org/abs/1603.09320",
+            "id": 233
+        },
+        {
+            "name": "Data Augmentation",
+            "definition": "Data augmentation involves generating additional training data through transformations like rotation, cropping, or noise to improve model generalization.",
+            "url": "https://en.wikipedia.org/wiki/Data_augmentation",
+            "id": 234
+        },
+        {
+            "name": "Batch Normalization",
+            "definition": "Batch normalization standardizes inputs to a layer across the mini-batch, stabilizing and accelerating neural network training.",
+            "url": "https://arxiv.org/abs/1502.03167",
+            "id": 235
+        },
+        {
+            "name": "Spatial Dropout",
+            "definition": "Spatial dropout is a regularization technique that drops entire feature maps in convolutional neural networks to improve generalization.",
+            "url": "https://serp.ai/posts/spatialdropout/",
+            "id": 236
+        },
+        {
+            "name": "Pooling, Padding, and Flattening",
+            "definition": "These are key operations in CNNs: pooling reduces dimensions, padding preserves spatial size, and flattening converts matrices into vectors.",
+            "url": "https://cs231n.github.io/convolutional-networks/",
+            "id": 237
+        },
+        {
+            "name": "Dropout",
+            "definition": "Dropout is a regularization method that randomly deactivates neurons during training to prevent overfitting.",
+            "url": "https://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf",
+            "id": 238
+        },
+        {
+            "name": "Byte-Pair Encoding",
+            "definition": "Byte-Pair Encoding is a subword tokenization method that iteratively merges the most frequent byte pairs to reduce vocabulary size.",
+            "url": "https://huggingface.co/learn/nlp-course/chapter6/5",
+            "id": 239
+        },
+        {
+            "name": "Fusion Retrieval",
+            "definition": "Fusion retrieval combines results from multiple retrievers or modalities to improve information retrieval performance.",
+            "url": "https://machinelearningmastery.com/understanding-rag-iii-fusion-retrieval-and-reranking/",
+            "id": 240
+        },
+        {
+            "name": "Naive/Basic RAG vs. Advanced RAG",
+            "definition": "Basic RAG integrates retrieval and generation without optimization, while advanced RAG uses feedback loops and reranking for enhanced performance.",
+            "url": "https://arxiv.org/abs/2005.11401",
+            "id": 241
+        },
+        {
+            "name": "Automatic Prompt Engineer (APE)",
+            "definition": "APE automatically generates effective prompts for large language models using task-specific optimization.",
+            "url": "https://github.com/keirp/automatic_prompt_engineer",
+            "id": 242
+        },
+        {
+            "name": "Automatic Reasoning and Tool-Use (ART)",
+            "definition": "ART enables LLMs to invoke external tools and perform complex reasoning through dynamic planning and execution.",
+            "url": "https://arxiv.org/abs/2305.17126",
+            "id": 243
+        },
+        {
+            "name": "Reinforcement Learning with Human Feedback (RLHF)",
+            "definition": "RLHF aligns model outputs with human preferences using human-labeled reward signals and reinforcement learning.",
+            "url": "https://www.ibm.com/think/topics/rlhf",
+            "id": 244
+        },
+        {
+            "name": "Permutation Language Modeling",
+            "definition": "Permutation Language Modeling is used in XLNet to capture bidirectional context by training on all permutations of token order.",
+            "url": "https://towardsdatascience.com/permutative-language-modeling-explained-9a7743d979b4/",
+            "id": 245
+        },
+        {
+            "name": "Autoregressive (AR) Model",
+            "definition": "An AR model predicts future values based on its own previous values, commonly used in time series and language modeling.",
+            "url": "https://en.wikipedia.org/wiki/Autoregressive_model",
+            "id": 246
+        },
+        {
+            "name": "VMware Virtualised vSphere for AI",
+            "definition": "VMware Virtualised vSphere for AI refers to using VMware's vSphere platform to deploy, manage, and scale AI workloads in a virtualized environment. It leverages features like GPU passthrough, BitFusion, and integration with tools such as NVIDIA AI Enterprise for optimized machine learning and inference workflows.",
+            "url": "https://itsabout.ai/deploying-ai-workloads-in-virtualised-environments-with-vmware-vvf-private-ai-on-vcf-rhel-kvm-and-nutanix/",
+            "id": 247
+        },
+        {
+            "name": "RoPE vs. Additive Positional Encoding",
+            "definition": "RoPE rotates query/key vectors to encode relative position; additive encoding adds rotated vectors to embeddings, generalising sinusoidal encoding.",
+            "url": "https://jonathanc.net/blog/additive-rotary-embedding",
+            "id": 248
+        },
+        {
+            "name": "Recursive Neural Tensor Networks (RNTNs)",
+            "definition": "RNTNs process input structures recursively, using tensor-based compositions to capture semantic relationships.",
+            "url": "https://nlp.stanford.edu/~socherr/EMNLP2013_RNTN.pdf",
+            "id": 249
+        },
+        {
+            "name": "Association Learning",
+            "definition": "Association learning refers to the process of learning the relationship between items or events, such as in associative rule mining.",
+            "url": "https://en.wikipedia.org/wiki/Association_rule_learning",
+            "id": 250
+        },
+        {
+            "name": "PCA vs. LDA vs. SVD",
+            "definition": "PCA reduces dimensionality via variance, LDA maximizes class separability, and SVD decomposes matrices into singular vectors and values.",
+            "url": "https://sebastianraschka.com/faq/docs/lda-vs-pca.html",
+            "id": 251
+        },
+        {
+            "name": "DBSCAN",
+            "definition": "DBSCAN is a density-based clustering algorithm that groups closely packed points and identifies outliers as noise.",
+            "url": "https://scikit-learn.org/stable/modules/clustering.html#dbscan",
+            "id": 252
+        },
+        {
+            "name": "AIC and BIC",
+            "definition": "AIC and BIC are model selection criteria balancing model fit and complexity using different penalty terms.",
+            "url": "https://en.wikipedia.org/wiki/Akaike_information_criterion",
+            "id": 253
+        },
+        {
+            "name": "Xavier/Glorot and He Initialization",
+            "definition": "These are weight initialization strategies designed to keep variance stable in deep networks: Xavier for tanh, He for ReLU.",
+            "url": "https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf",
+            "id": 254
         }
-
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3
-        # },
-
     ]
 
     # Select a candidate word from word list
